@@ -1,0 +1,411 @@
+﻿@page "/"
+@using AccountingSoftware.Shared
+@using System.ComponentModel.DataAnnotations
+@using Microsoft.Extensions.Localization
+@using System.Globalization;
+@inject IStringLocalizer<Index> L
+@inject IJSRuntime JS
+@inject NavigationManager Nav
+
+<style>
+    /* Typography hierarchy */
+    .hero h1 {
+        line-height: 1.2;
+        font-weight: 800;
+    }
+
+    .hero p {
+        max-width: 40ch;
+        margin: 0 auto;
+    }
+
+    main p, section p {
+        font-size: 1.0625rem;
+        line-height: 1.6;
+    }
+
+    /* Plain background for hero (no gradients/shadows) */
+    .hero {
+        background-color: #f0eeff;
+        position: relative;
+    }
+
+        /* Remove pattern overlay entirely */
+        .hero::before {
+            display: none;
+        }
+
+    /* Fade-in-up keyframes */
+    @@keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .fade-in-up {
+        animation: fadeInUp 0.6s ease-out both;
+    }
+
+    /* ServiceCard hover 3D effect */
+    .service-card {
+        transition: transform .3s, box-shadow .3s;
+    }
+
+        .service-card:hover {
+            transform: perspective(500px) translateZ(8px) rotateY(3deg);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+        }
+</style>
+<div class="flex flex-col min-h-screen bg-background text-text font-sans antialiased">
+    <!-- Hero: flat background, limited content width -->
+    <header class="hero relative flex flex-col items-center justify-center text-center overflow-hidden
+            bg-[url('/images/employee-management.jpg')] bg-no-repeat bg-cover bg-center"
+            style="height: calc(100vh - 4rem);">
+    <div class="z-10 max-w-4xl mx-auto px-6 space-y-6">
+
+      <!-- Logo + Punchy Tagline -->
+      <div
+        class="flex items-center justify-center space-x-3 fade-in-up"
+        style="animation-delay: 0s;"
+      >@* 
+        <!-- Logo if you want it; otherwise remove the <img> -->
+        <img src="/images/logyx logo.svg" alt="Logo" class="h-8 md:h-10" /> *@
+        <p class="text-sky-600 font-medium uppercase tracking-widest">
+          From idea to impact 
+        </p>
+      </div>
+
+      <!-- Main heading (now smaller) -->
+      <h1
+        class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-800 fade-in-up"
+        style="animation-delay: 0.2s;"
+      >
+                @L["HeroTitle"]
+      </h1>
+
+      <!-- Subtitle -->
+      <p
+        class="text-lg md:text-xl text-gray-700 fade-in-up"
+        style="animation-delay: 0.4s;"
+      >
+                @L["HeroSubtitle"]
+      </p>
+
+      <!-- Quick 3-point value props -->
+      <ul
+        class="flex flex-col sm:flex-row justify-center gap-6 text-gray-600 fade-in-up"
+        style="animation-delay: 0.6s;"
+      >
+        <li class="flex items-center space-x-2">
+          <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd"
+                  d="M16.707 5.293a1 1 0 010 1.414L9.414 14l-3.707-3.707a1 1 0
+                     011.414-1.414L9.414 11.586l6.293-6.293a1 1 0 011.414 0z"
+                  clip-rule="evenodd" />
+          </svg>
+          <span>Free session</span>
+        </li>
+        <li class="flex items-center space-x-2">
+          <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd"
+                  d="M16.707 5.293a1 1 0 010 1.414L9.414 14l-3.707-3.707a1 1 0
+                     011.414-1.414L9.414 11.586l6.293-6.293a1 1 0 011.414 0z"
+                  clip-rule="evenodd" />
+          </svg>
+          <span>High-value service</span>
+        </li>
+        <li class="flex items-center space-x-2">
+          <svg class="w-5 h-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd"
+                  d="M16.707 5.293a1 1 0 010 1.414L9.414 14l-3.707-3.707a1 1 0
+                     011.414-1.414L9.414 11.586l6.293-6.293a1 1 0 011.414 0z"
+                  clip-rule="evenodd" />
+          </svg>
+          <span>Proactive Support</span>
+        </li>
+      </ul>
+
+      <!-- CTAs -->
+      <div
+        class="flex flex-col sm:flex-row gap-4 justify-center fade-in-up"
+        style="animation-delay: 0.8s;"
+      >
+        <a href="/services"
+           class="group relative inline-block bg-white text-accent1 font-semibold py-3 px-8 rounded-full overflow-hidden transition">
+          <span class="relative z-10">@L["ExploreServicesButton"]</span>
+          <span
+            class="absolute inset-0 bg-accent1 scale-x-0 group-hover:scale-x-100
+                   transform origin-left transition-transform duration-300 opacity-20"
+          ></span>
+        </a>
+                <a href="https://calendly.com/careeronspot/30min" target="_blank"
+           class="group relative inline-block bg-accent2 text-white font-semibold py-3 px-8 rounded-full overflow-hidden transition">
+          <span class="relative z-10">Free Consultation</span>
+          <span
+            class="absolute inset-0 bg-white scale-x-0 group-hover:scale-x-100
+                   transform origin-left transition-transform duration-300 opacity-20"
+          ></span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+    <!-- IT Strategy Summary Section -->
+    <section id="it-strategy-summary" class="py-16 px-2 sm:px-6 bg-white text-black">
+        <div class="max-w-screen-xl mx-auto px-2 sm:px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-4">IT Strategy</h2>
+                    <p class="mb-6 leading-relaxed">
+                        Align your technology with business goals through in-depth assessments, roadmap definition, and governance frameworks. We help you invest wisely, manage risks, and optimize costs for sustained digital transformation.
+                    </p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition">
+                            <h4 class="font-semibold mb-2">Strategic Roadmaps</h4>
+                            <p class="text-sm">Define clear, actionable technology plans to achieve your vision.</p>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition">
+                            <h4 class="font-semibold mb-2">Architecture Reviews</h4>
+                            <p class="text-sm">Evaluate and optimize your infrastructure for reliability and scale.</p>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition">
+                            <h4 class="font-semibold mb-2">Risk & Compliance</h4>
+                            <p class="text-sm">Establish governance frameworks to mitigate risks and ensure compliance.</p>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition">
+                            <h4 class="font-semibold mb-2">Vendor Selection</h4>
+                            <p class="text-sm">Curate and evaluate technology vendors to fit your needs and budget.</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="/images/ITStrategy.jpg" alt="IT Strategy Illustration" class="hidden sm:block w-full rounded-lg shadow-lg" />
+            </div>
+            <div class="text-center mt-8">
+                <a href="/services/it-strategy" class="inline-block bg-accent1 text-white font-medium py-3 px-8 rounded-full hover:bg-accent2 transition">
+                    Learn more about our IT Strategy
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Design Overview Section -->
+    <section id="solution-design-overview" class="relative py-20 px-2 sm:px-6 bg-gradient-to-br from-indigo-50 to-white overflow-hidden">
+        <!-- Decorative SVG pattern -->
+        <div class="absolute inset-0 pointer-events-none">
+            <svg class="w-full h-full" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <circle cx="1" cy="1" r="1" fill="rgba(100, 116, 139, 0.1)" />
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#dots)" />
+            </svg>
+        </div>
+
+        <div class="relative max-w-6xl mx-auto text-center">
+            <!-- Title -->
+            <h2 class="text-4xl font-extrabold text-gray-800 mb-6 fade-in-up">
+                @L["Index_SolutionDesign_Overview_Title"]
+            </h2>
+
+            <!-- Intro -->
+            <p class="max-w-3xl mx-auto text-lg text-gray-600 mb-12 fade-in-up" style="animation-delay: 0.2s;">
+                @L["Index_SolutionDesign_Overview_Summary"]
+            </p>
+
+            <!-- Feature cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <div class="service-card p-6 bg-white rounded-2xl shadow-sm hover:shadow-lg transition transform hover:-translate-y-1">
+                    <div class="mb-4 text-indigo-600 text-3xl">
+                        <i class="bi bi-people-fill"></i>
+                    </div>
+                    <h4 class="font-semibold text-gray-800 mb-2">Research & Workshops</h4>
+                    <p class="text-gray-600 text-sm">Gather insights and align stakeholders on objectives and constraints.</p>
+                </div>
+                <div class="service-card p-6 bg-white rounded-2xl shadow-sm hover:shadow-lg transition transform hover:-translate-y-1">
+                    <div class="mb-4 text-indigo-600 text-3xl">
+                        <i class="bi bi-ui-checks-grid"></i>
+                    </div>
+                    <h4 class="font-semibold text-gray-800 mb-2">Wireframes & Prototypes</h4>
+                    <p class="text-gray-600 text-sm">Create interactive mockups to validate UX patterns quickly.</p>
+                </div>
+                <div class="service-card p-6 bg-white rounded-2xl shadow-sm hover:shadow-lg transition transform hover:-translate-y-1">
+                    <div class="mb-4 text-indigo-600 text-3xl">
+                        <i class="bi bi-palette-fill"></i>
+                    </div>
+                    <h4 class="font-semibold text-gray-800 mb-2">UI/UX Design</h4>
+                    <p class="text-gray-600 text-sm">Design intuitive, visually compelling user interfaces.</p>
+                </div>
+                <div class="service-card p-6 bg-white rounded-2xl shadow-sm hover:shadow-lg transition transform hover:-translate-y-1">
+                    <div class="mb-4 text-indigo-600 text-3xl">
+                        <i class="bi bi-diagram-3-fill"></i>
+                    </div>
+                    <h4 class="font-semibold text-gray-800 mb-2">Architecture & Data Models</h4>
+                    <p class="text-gray-600 text-sm">Define scalable structures and data flows for maintainable solutions.</p>
+                </div>
+            </div>
+
+            <!-- Call-to-action -->
+            <a href="/services/solution-design"
+               class="inline-block bg-indigo-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-indigo-700 transition transform hover:-translate-y-0.5 fade-in-up"
+               style="animation-delay: 0.4s;">
+                @L["Index_SolutionDesign_Overview_CTA"]
+            </a>
+        </div>
+    </section>
+
+
+    <!-- E2E Development Summary Section -->
+    <section id="e2e-development-summary" class="py-16 px-2 sm:px-6 bg-white text-black">
+        <div class="max-w-screen-xl mx-auto px-2 sm:px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-4">End-to-End Development</h2>
+                    <p class="mb-6 leading-relaxed">
+                        From concept through deployment and beyond, our End-to-End Development service delivers:
+                        cross-platform mobile and desktop applications; responsive, SEO-friendly web apps; robust
+                        backend and cloud architectures; secure integration pipelines; and AI/ML-powered features.
+                        Leveraging modern frameworks (NET MAUI, React Native, Blazor, Electron), scalable APIs &
+                        microservices, and automated CI/CD pipelines, we build high-performance solutions that
+                        align perfectly with your business goals.
+                    </p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition">
+                            <h4 class="font-semibold mb-2">Full-Stack Engineering</h4>
+                            <p class="text-sm">Comprehensive front- and back-end development tailored to your needs.</p>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition">
+                            <h4 class="font-semibold mb-2">API & Microservices</h4>
+                            <p class="text-sm">Design and implement scalable, secure APIs and microservices architectures.</p>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition">
+                            <h4 class="font-semibold mb-2">Automated Testing</h4>
+                            <p class="text-sm">Robust unit, integration, and end-to-end tests to ensure quality and reliability.</p>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition">
+                            <h4 class="font-semibold mb-2">CI/CD & DevOps</h4>
+                            <p class="text-sm">Seamless continuous integration, delivery, and monitoring for rapid iteration.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <img src="/images/e2e-development.jpg"
+                     alt="End-to-End Development Illustration"
+                     class="hidden sm:block w-full rounded-lg shadow-lg" />
+            </div>
+            <div class="text-center mt-8">
+                <a href="/services/e2e-development"
+                   class="inline-block bg-accent1 text-white font-medium py-3 px-8 rounded-full hover:bg-accent2 transition">
+                    Learn more about our End-to-End Development
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Support Summary Section -->
+    <section id="support-summary"
+             class="h-auto py-16 md:h-screen bg-gradient-to-br from-indigo-50 to-white text-black">
+        <div class="max-w-screen-xl mx-auto h-full flex items-start md:items-center px-2 sm:px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 w-full">
+
+                <!-- Left container: heading + copy -->
+                <div class="flex flex-col justify-center">
+                    <h2 class="text-3xl font-bold mb-4">Support & Maintenance</h2>
+                    <p class="mb-6 leading-relaxed">
+                        Ensure optimal performance and reliability with our
+                        multi-tier support. From incident response and monitoring to
+                        tiered SLAs (L1–L3) and system redesign, we keep your
+                        applications running and evolving.
+                    </p>
+                </div>
+
+                <!-- Right container: feature cards -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div class="p-4 bg-white rounded-lg shadow hover:shadow-lg transition">
+                        <h4 class="font-semibold mb-2">Incident Management</h4>
+                        <p class="text-sm">
+                            24/7 rapid response to minimize downtime.
+                        </p>
+                    </div>
+                    <div class="p-4 bg-white rounded-lg shadow hover:shadow-lg transition">
+                        <h4 class="font-semibold mb-2">Proactive Monitoring</h4>
+                        <p class="text-sm">
+                            Continuous system checks and alerts to prevent issues.
+                        </p>
+                    </div>
+                    <div class="p-4 bg-white rounded-lg shadow hover:shadow-lg transition">
+                        <h4 class="font-semibold mb-2">Tiered Support</h4>
+                        <p class="text-sm">
+                            Structured L1–L3 support tailored to your environment.
+                        </p>
+                    </div>
+                    <div class="p-4 bg-white rounded-lg shadow hover:shadow-lg transition">
+                        <h4 class="font-semibold mb-2">System Redesign</h4>
+                        <p class="text-sm">
+                            Refactor and optimize for performance, security, and scalability.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+@code {
+
+    bool isMenuOpen;
+    void ToggleMenu() => isMenuOpen = !isMenuOpen;
+
+
+    private readonly string[] _techIcons = new[]
+       {
+        "/images/tech/dotnet.svg",
+        "/images/tech/blazor.svg",
+        "/images/tech/react.svg",
+        "/images/tech/angular.svg",
+        "/images/tech/nodejs.svg",
+        "/images/tech/docker.svg",
+        "/images/tech/aws.svg",
+        "/images/tech/azure.svg"
+    };
+
+    string currentCulture = CultureInfo.CurrentCulture.TwoLetterISOLanguageName;
+    async Task ChangeCulture(ChangeEventArgs e)
+    {
+        var culture = e.Value.ToString();
+        await JS.InvokeVoidAsync("localStorage.setItem", "blazorCulture", culture);
+        Nav.NavigateTo(Nav.Uri, forceLoad: true);
+    }
+
+    bool contactSubmitted;
+    ContactModel contactModel = new();
+
+    void HandleContactSubmit()
+    {
+        contactSubmitted = true;
+        contactModel = new();
+    }
+
+    class ContactModel
+    {
+        [Required(ErrorMessageResourceName = "Validation_NameRequired", ErrorMessageResourceType = typeof(Pages.Index))]
+        public string Name { get; set; }
+
+        [Required(ErrorMessageResourceName = "Validation_EmailRequired", ErrorMessageResourceType = typeof(Pages.Index))]
+        [EmailAddress(ErrorMessageResourceName = "Validation_EmailInvalid", ErrorMessageResourceType = typeof(Pages.Index))]
+        public string Email { get; set; }
+
+        public string Subject { get; set; }
+
+        [Required(ErrorMessageResourceName = "Validation_MessageRequired", ErrorMessageResourceType = typeof(Pages.Index))]
+        public string Message { get; set; }
+    }
+}

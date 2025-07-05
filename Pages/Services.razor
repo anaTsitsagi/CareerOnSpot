@@ -1,0 +1,64 @@
+﻿@page "/services"
+@using Microsoft.AspNetCore.Components.Routing
+@using AccountingSoftware.Shared
+@inject NavigationManager Nav
+@using System.ComponentModel.DataAnnotations
+@using Microsoft.Extensions.Localization
+@using System.Globalization;
+@inject IStringLocalizer<Index> L
+@inject IJSRuntime JS
+@inject NavigationManager Nav
+
+<!-- Services Grid -->
+<main id="servicesIndividuals" class="py-20 px-2 sm:px-6 bg-background">
+    <h2 class="text-3xl font-semibold text-center mb-12">
+        Our Services for Individuals
+    </h2>
+
+    <div class="max-w-screen-xl text-center mx-auto
+                 grid grid-cols-1
+                      sm:grid-cols-2   /* tablets & up get 2 cols */
+                      lg:grid-cols-3   /* laptops & up get 4 cols */
+                 gap-1">
+        <ServiceCard Title="Feedback Session"
+                     Description="@L["Service1_Description"]"
+                     Link="@L["Service1_Link"]" />
+        <ServiceCard Title="Market Insights"
+                     Description="@L["Service2_Description"]"
+                     Link="@L["Service2_Link"]" />
+
+        <ServiceCard Title="Premium Support"
+                     Description="@L["Service3_Description"]"
+                     Link="@L["Service3_Link"]" />
+    </div>
+</main>
+
+<!-- Services Grid -->
+<main id="servicesCompanies" class="py-20 px-2 sm:px-6 bg-background">
+    <h2 class="text-3xl font-semibold text-center mb-12">
+        Our Services for Companies
+    </h2>
+
+    <div class="max-w-screen-xl text-center mx-auto
+                 grid grid-cols-1
+                      sm:grid-cols-2   /* tablets & up get 2 cols */
+                      lg:grid-cols-3   /* laptops & up get 4 cols */
+                 gap-1">
+        <ServiceCard Icon="bi-compass"
+                     Title="Outplacement"
+                     Description="@L["Service1_Description"]"
+                     Link="@L["Service1_Link"]"
+                     Tags="@(new[] { "BUDGET", "TOOLS", "ARCHITECTURE" })" />
+        <ServiceCard Icon="bi-diagram-3"
+                     Title="Collaboration"
+                     Description="@L["Service2_Description"]"
+                     Link="@L["Service2_Link"]"
+                     Tags="@(new[] { "PLAN", "DESIGN", "SOLUTION", "COLLABORATION", "AGREEMENT" })" />
+
+        <ServiceCard Icon="bi-cpu"
+                     Title="Workshops"
+                     Description="@L["Service3_Description"]"
+                     Link="@L["Service3_Link"]"
+                     Tags="@(new[] { "DESKTOP", "API", "WEB", "MOBILE", "AI","CLOUD","INTEGRATION" })" />
+    </div>
+</main>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Navigation -->
+  <data name="BackButtonText" xml:space="preserve"><value>← Назад</value></data>
+  <data name="PageTitle"       xml:space="preserve"><value>Проектирование решений</value></data>
+
+  <!-- Step 1 -->
+  <data name="Step1_Title"  xml:space="preserve">
+    <value>Вы приходите к нам со своей бизнес-идеей и ИТ-стратегией.</value>
+  </data>
+  <data name="Step1_Point1" xml:space="preserve">
+    <value>Анализ вашей общей стратегии для соответствия технического объема бизнес-целям</value>
+  </data>
+  <data name="Step1_Point2" xml:space="preserve">
+    <value>Сбор существующей документации, портретов пользователей и метрик успеха</value>
+  </data>
+  <data name="Step1_Point3" xml:space="preserve">
+    <value>Проведение вводного семинара со стейкхолдерами для уточнения предположений</value>
+  </data>
+  <data name="Step1_Point4" xml:space="preserve">
+    <value>Определение ограничений проекта: бюджет, сроки, требования к соответствию</value>
+  </data>
+
+  <!-- Step 2 -->
+  <data name="Step2_Title"  xml:space="preserve">
+    <value>Мы анализируем каждый модуль и создаем техническое описание.</value>
+  </data>
+  <data name="Step2_Point1" xml:space="preserve">
+    <value>Разбиение решения на функциональные области и микросервисы</value>
+  </data>
+  <data name="Step2_Point2" xml:space="preserve">
+    <value>Создание моделей данных, контрактов API и диаграмм пользовательских потоков</value>
+  </data>
+  <data name="Step2_Point3" xml:space="preserve">
+    <value>Указание выбора стека технологий (frontend, backend, БД, обмен сообщениями)</value>
+  </data>
+  <data name="Step2_Point4" xml:space="preserve">
+    <value>Документирование нефункциональных требований: производительность, безопасность, масштабируемость</value>
+  </data>
+
+  <!-- Step 3 -->
+  <data name="Step3_Title"  xml:space="preserve">
+    <value>Мы создаем конвейер поставки.</value>
+  </data>
+  <data name="Step3_Point1" xml:space="preserve">
+    <value>Проектирование CI/CD процессов для этапов сборки, тестирования и развертывания</value>
+  </data>
+  <data name="Step3_Point2" xml:space="preserve">
+    <value>Интеграция статического анализа кода, модульных тестов и проверок безопасности</value>
+  </data>
+  <data name="Step3_Point3" xml:space="preserve">
+    <value>Настройка хранилищ артефактов и реестров контейнеров</value>
+  </data>
+  <data name="Step3_Point4" xml:space="preserve">
+    <value>Настройка автоматического отката и инструментов мониторинга</value>
+  </data>
+
+  <!-- Step 4 -->
+  <data name="Step4_Title"  xml:space="preserve">
+    <value>Мы определяем каждую задачу, необходимую для конечного результата.</value>
+  </data>
+  <data name="Step4_Point1" xml:space="preserve">
+    <value>Преобразование технических спецификаций в пользовательские истории или задачи</value>
+  </data>
+  <data name="Step4_Point2" xml:space="preserve">
+    <value>Оценка усилий и назначение приоритетов (MoSCoW / story points)</value>
+  </data>
+  <data name="Step4_Point3" xml:space="preserve">
+    <value>Организация задач по спринтам или этапам</value>
+  </data>
+  <data name="Step4_Point4" xml:space="preserve">
+    <value>Подготовка критериев приемки и тестовых сценариев для каждой задачи</value>
+  </data>
+
+  <!-- Step 5 -->
+  <data name="Step5_Title"  xml:space="preserve">
+    <value>Мы передаем все дизайны в инструмент вашего выбора (Jira, Trello, Azure DevOps и др.).</value>
+  </data>
+  <data name="Step5_Point1" xml:space="preserve">
+    <value>Заполнение досок эпиками, историями и подзадачами</value>
+  </data>
+  <data name="Step5_Point2" xml:space="preserve">
+    <value>Прикрепление wireframe, последовательных диаграмм и спецификаций API</value>
+  </data>
+  <data name="Step5_Point3" xml:space="preserve">
+    <value>Настройка рабочих процессов, меток, swimlanes и схем разрешений</value>
+  </data>
+  <data name="Step5_Point4" xml:space="preserve">
+    <value>Обеспечение walkthrough и сессии передачи знаний</value>
+  </data>
+</root>

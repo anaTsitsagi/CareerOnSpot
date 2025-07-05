@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Navigation -->
+  <data name="BackButtonText" xml:space="preserve">
+    <value>← Назад</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Поддержка и планы на будущее</value>
+  </data>
+
+  <!-- Step 1 -->
+  <data name="Step1_Title" xml:space="preserve">
+    <value>Доступна непрерывная поддержка наших приложений.</value>
+  </data>
+  <data name="Step1_Description" xml:space="preserve">
+    <value>Мы предлагаем постоянное обслуживание, исправление ошибок и обновление функций для бесперебойной работы вашего ПО.</value>
+  </data>
+
+  <!-- Step 2 -->
+  <data name="Step2_Title" xml:space="preserve">
+    <value>Выберите один из 4 уровней поддержки.</value>
+  </data>
+  <data name="Step2_Description" xml:space="preserve">
+    <value>От базового мониторинга до круглосуточной выделенной поддержки — выберите подходящий план.</value>
+  </data>
+
+  <!-- Step 3 -->
+  <data name="Step3_Title" xml:space="preserve">
+    <value>Запросите обзор решения в любое время.</value>
+  </data>
+  <data name="Step3_Description" xml:space="preserve">
+    <value>Переоцените ваше приложение в соответствии с последними стандартами и лучшими практиками, когда потребуется.</value>
+  </data>
+
+  <!-- Step 4 -->
+  <data name="Step4_Title" xml:space="preserve">
+    <value>Получите обновлённые дизайны и дорожные карты.</value>
+  </data>
+  <data name="Step4_Description" xml:space="preserve">
+    <value>При необходимости изменений мы предоставим новые дизайны и чёткий план внедрения.</value>
+  </data>
+</root>

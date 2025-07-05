@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Navigation -->
+  <data name="BackButtonText" xml:space="preserve">
+    <value>← Back</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>IT Strategy</value>
+  </data>
+
+  <!-- Intro -->
+  <data name="Intro_Heading" xml:space="preserve">
+    <value>When do you need this service?</value>
+  </data>
+  <data name="Intro_Point1" xml:space="preserve">
+    <value>You're planning custom software but need accurate cost estimates before committing.</value>
+  </data>
+  <data name="Intro_Point2" xml:space="preserve">
+    <value>You have a business idea and need to translate it into precise technical requirements.</value>
+  </data>
+  <data name="Intro_Point3" xml:space="preserve">
+    <value>You want expert guidance on choosing the optimal tech stack and toolset.</value>
+  </data>
+
+  <!-- Step 1 -->
+  <data name="Step1_Title" xml:space="preserve">
+    <value>Listening in detail to understand your business need</value>
+  </data>
+  <data name="Step1_Point1" xml:space="preserve">
+    <value>Conduct stakeholder interviews to uncover key pain-points and objectives</value>
+  </data>
+  <data name="Step1_Point2" xml:space="preserve">
+    <value>Map out existing workflows and data-flows to identify gaps</value>
+  </data>
+  <data name="Step1_Point3" xml:space="preserve">
+    <value>Clarify success metrics and technical constraints upfront</value>
+  </data>
+  <data name="Step1_Point4" xml:space="preserve">
+    <value>Align on project scope, timeline, and regulatory requirements</value>
+  </data>
+
+  <!-- Step 2 -->
+  <data name="Step2_Title" xml:space="preserve">
+    <value>Identifying your budgeting options</value>
+  </data>
+  <data name="Step2_Point1" xml:space="preserve">
+    <value>Break down costs by development phases, licensing, and maintenance</value>
+  </data>
+  <data name="Step2_Point2" xml:space="preserve">
+    <value>Explore various delivery models: fixed-price, time-and-materials, hybrid</value>
+  </data>
+  <data name="Step2_Point3" xml:space="preserve">
+    <value>Compare on-premise vs. cloud hosting expense profiles</value>
+  </data>
+  <data name="Step2_Point4" xml:space="preserve">
+    <value>Perform ROI analysis and total cost of ownership (TCO) projections</value>
+  </data>
+
+  <!-- Step 3 -->
+  <data name="Step3_Title" xml:space="preserve">
+    <value>Creating multiple IT strategic solutions for your needs</value>
+  </data>
+  <data name="Step3_Point1" xml:space="preserve">
+    <value>Draft alternative architectures: microservices vs. monolith, SaaS vs. custom</value>
+  </data>
+  <data name="Step3_Point2" xml:space="preserve">
+    <value>Specify recommended tech stacks (frontend, backend, data storage)</value>
+  </data>
+  <data name="Step3_Point3" xml:space="preserve">
+    <value>Assess scalability, security, and compliance implications of each option</value>
+  </data>
+  <data name="Step3_Point4" xml:space="preserve">
+    <value>Provide high-level timelines and resource plans per scenario</value>
+  </data>
+
+  <!-- Step 4 -->
+  <data name="Step4_Title" xml:space="preserve">
+    <value>Reviewing each option together and selecting the best fit</value>
+  </data>
+  <data name="Step4_Point1" xml:space="preserve">
+    <value>Walk through pros, cons, and risk factors for every strategy</value>
+  </data>
+  <data name="Step4_Point2" xml:space="preserve">
+    <value>Answer questions and refine assumptions in real time</value>
+  </data>
+  <data name="Step4_Point3" xml:space="preserve">
+    <value>Prioritize features against budget and timeline constraints</value>
+  </data>
+  <data name="Step4_Point4" xml:space="preserve">
+    <value>Finalize a clear, actionable roadmap with defined milestones</value>
+  </data>
+</root>

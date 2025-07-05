@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HeroTitle" xml:space="preserve">
+    <value>Next Step In Your Career</value>
+  </data>
+  <data name="HeroSubtitle" xml:space="preserve">
+    <value>We can help you find the best option to improve</value>
+  </data>
+  <data name="ExploreServicesButton" xml:space="preserve">
+    <value>Explore Our Services</value>
+  </data>
+  <data name="OurServicesHeading" xml:space="preserve">
+    <value>WORK WITH US</value>
+  </data>
+  <data name="Service1_Title" xml:space="preserve">
+    <value>IT Strategy</value>
+  </data>
+  <data name="Service1_Description" xml:space="preserve">
+    <value>
+      &gt; In‑depth understanding of your business needs 
+
+      &gt; alignment to budget 
+
+      &gt; Detailed plan of architecture, tools, and processes
+    </value>
+  </data>
+  <data name="Service1_BackText" xml:space="preserve">
+    <value>
+      We’ll define and compare multiple tailored IT strategies so you can choose the best fit.</value>
+  </data>
+  <data name="Service1_Link" xml:space="preserve">
+    <value>/services/it-strategy</value>
+  </data>
+  <data name="Service2_Title" xml:space="preserve">
+    <value>Solution Design</value>
+  </data>
+  <data name="Service2_Description" xml:space="preserve">
+    <value>
+      &gt; You bring a clear business idea and strategy 
+
+      &gt; We analyze modules, write technical specs 
+
+      &gt; Build a delivery pipeline, define all tasks 
+
+      &gt; Share plans via Jira, Trello, or Azure DevOps 
+    </value>
+  </data>
+  <data name="Service2_BackText" xml:space="preserve">
+    <value>From modules to milestones—get a complete, transparent plan ready for development.</value>
+  </data>
+  <data name="Service2_Link" xml:space="preserve">
+    <value>/services/solution-design</value>
+  </data>
+  <data name="Service3_Title" xml:space="preserve">
+    <value>Software Development</value>
+  </data>
+  <data name="Service3_Description" xml:space="preserve">
+    <value>
+      &gt; Desktop applications 
+
+      &gt; scalable backend services 
+
+      &gt; Mobile apps 
+
+      &gt; Integrate existing software 
+
+      &gt; Cloud services 
+
+      &gt; AI integration
+    </value>
+  </data>
+  <data name="Service3_BackText" xml:space="preserve">
+    <value>Full‑stack, end‑to‑end development tailored to your needs, with seamless integration &amp; scaling.</value>
+  </data>
+  <data name="Service3_Link" xml:space="preserve">
+    <value>/services/e2e-development</value>
+  </data>
+  <data name="Service4_Title" xml:space="preserve">
+    <value>Support &amp; Future Plan</value>
+  </data>
+  <data name="Service4_Description" xml:space="preserve">
+    <value>
+      &gt; Ongoing support for all delivered apps 
+
+      &gt; four levels of service 
+
+      &gt; on‑demand solution reviews 
+
+      &gt; updated designs with implementation roadmaps 
+
+    </value>
+  </data>
+  <data name="Service4_BackText" xml:space="preserve">
+    <value>Keep your systems running smoothly and evolve with confidence using our flexible support tiers.</value>
+  </data>
+  <data name="Service4_Link" xml:space="preserve">
+    <value>/services/support</value>
+  </data>
+  <data name="Service1_Point1" xml:space="preserve">
+    <value>Analyze your current infrastructure</value>
+  </data>
+  <data name="Service1_Point2" xml:space="preserve">
+    <value>Identify cost-saving opportunities</value>
+  </data>
+  <data name="Service1_Point3" xml:space="preserve">
+    <value>Deliver a tailored strategic roadmap</value>
+  </data>
+  <data name="Service2_Point1" xml:space="preserve">
+    <value>Break down modules &amp; workflows</value>
+  </data>
+  <data name="Service2_Point2" xml:space="preserve">
+    <value>Create detailed technical specifications</value>
+  </data>
+  <data name="Service2_Point3" xml:space="preserve">
+    <value>Set up your CI/CD &amp; project tracking</value>
+  </data>
+  <data name="Service3_Point1" xml:space="preserve">
+    <value>Full-stack web and mobile development</value>
+  </data>
+  <data name="Service3_Point2" xml:space="preserve">
+    <value>Cloud integration &amp; serverless deployment</value>
+  </data>
+  <data name="Service3_Point3" xml:space="preserve">
+    <value>AI/ML enhancements for data-driven apps</value>
+  </data>
+  <data name="Service4_Point1" xml:space="preserve">
+    <value>24/7 monitoring &amp; incident response</value>
+  </data>
+  <data name="Service4_Point2" xml:space="preserve">
+    <value>Quarterly architecture reviews</value>
+  </data>
+  <data name="Service4_Point3" xml:space="preserve">
+    <value>Roadmaps for future feature rollouts</value>
+  </data>
+  <data name="AboutSection_Title" xml:space="preserve">
+    <value>WHO WE ARE</value>
+  </data>
+  <data name="AboutParagraph1" xml:space="preserve">
+    <value>At Logyx.tech, we measure our success by yours. We’re passionate about building long-term relationships, sharing knowledge, and empowering your team with transparent communication and hands-on training. Let us help you navigate today’s complex technology landscape—and turn your next big idea into a competitive advantage.
+Our client-first approach means we start by listening: understanding your customers, processes, and KPIs. We then architect flexible platforms that grow with you—whether it’s a mission-critical enterprise system, a public-facing web portal, or an automated data pipeline in the cloud. By embracing continuous integration, automated testing, and DevOps from day one, we accelerate time-to-market and reduce risk, so you can focus on driving innovation rather than firefighting infrastructure.
+
+</value>
+  </data>
+  <data name="AboutParagraph2" xml:space="preserve">
+    <value>At Logyx.tech, our partnership truly begins long before a single line of code is written. It starts with an in-depth discovery workshop, where we dive into your business goals, user needs, and technical constraints—ensuring we capture every nuance of your vision. From there, we move into collaborative planning and prototyping, running rapid design sprints to validate concepts, refine user journeys, and create interactive mockups that bring ideas to life.
+
+Once the plan is locked down, our cross-functional teams spring into action: developers, QA engineers, and DevOps specialists work hand-in-hand in agile iterations, continuously integrating feedback, automating tests, and deploying incremental releases so you see value from day one. We don’t just ship a product and walk away—our dedicated support squad monitors performance, troubleshoots issues, and helps you adopt new features smoothly.
+
+Looking ahead, we partner on your roadmap: evaluating emerging technologies, optimizing your architecture for scale and cost-efficiency, and planning feature rollouts that keep you ahead of the curve. At every stage—from initial brainstorming through launch, support, and beyond—Logyx.tech brings clarity to complexity and innovation to every project, ensuring you have both the technical expertise and strategic guidance to succeed today and tomorrow.</value>
+  </data>
+  <data name="GetInTouchButton" xml:space="preserve">
+    <value>Get in Touch</value>
+  </data>
+  <data name="OurTeamHeading" xml:space="preserve">
+    <value>Our Team</value>
+  </data>
+  <data name="TeamMember1_Name" xml:space="preserve">
+    <value>Alice Smith</value>
+  </data>
+  <data name="TeamMember1_Description" xml:space="preserve">
+    <value>Lead Developer with 10+ years of experience crafting scalable .NET and Blazor applications.</value>
+  </data>
+  <data name="TeamMember2_Name" xml:space="preserve">
+    <value>Bob Johnson</value>
+  </data>
+  <data name="TeamMember2_Description" xml:space="preserve">
+    <value>Project Manager who keeps everything on track, coordinating between stakeholders and dev teams.</value>
+  </data>
+  <data name="TeamMember3_Name" xml:space="preserve">
+    <value>Carol Lee</value>
+  </data>
+  <data name="TeamMember3_Description" xml:space="preserve">
+    <value>UX/UI Designer focused on creating intuitive and accessible interfaces that delight users.</value>
+  </data>
+  <data name="TeamMember4_Name" xml:space="preserve">
+    <value>David Kim</value>
+  </data>
+  <data name="TeamMember4_Description" xml:space="preserve">
+    <value>Cloud Architect and DevOps specialist, ensuring your solutions are robust and production‑ready.</value>
+  </data>
+  <data name="TeamMember5_Name" xml:space="preserve">
+    <value>Eva García</value>
+  </data>
+  <data name="TeamMember5_Description" xml:space="preserve">
+    <value>AI/ML Engineer bringing intelligent automation and data‑driven insights into every project.</value>
+  </data>
+  <data name="TeamMember6_Name" xml:space="preserve">
+    <value>Frank Müller</value>
+  </data>
+  <data name="TeamMember6_Description" xml:space="preserve">
+    <value>Quality Assurance lead, passionate about delivering bug‑free and high‑performance software.</value>
+  </data>
+  <data name="ContactSection_Title" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="ThankYouMessage" xml:space="preserve">
+    <value>Thanks for reaching out! We’ll be in touch soon.</value>
+  </data>
+  <data name="NameLabel" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="EmailLabel" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="SubjectLabel" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="MessageLabel" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="SendButton" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Validation_NameRequired" xml:space="preserve">
+    <value>Name is required.</value>
+  </data>
+  <data name="Validation_EmailRequired" xml:space="preserve">
+    <value>Email is required.</value>
+  </data>
+  <data name="Validation_EmailInvalid" xml:space="preserve">
+    <value>Invalid email address.</value>
+  </data>
+  <data name="Validation_MessageRequired" xml:space="preserve">
+    <value>Please enter a message.</value>
+  </data>
+  <data name="Index_SolutionDesign_Overview_Title" xml:space="preserve">
+    <value>Solution Design Overview</value>
+  </data>
+  <data name="Index_SolutionDesign_Overview_Summary" xml:space="preserve">
+    <value>Our Solution Design service bridges vision and execution with user research, wireframes, UI/UX and technical specs. We deliver clear blueprints—system diagrams, data models and APIs—that accelerate development and ensure alignment with your business goals.</value>
+  </data>
+  <data name="Index_SolutionDesign_Overview_CTA" xml:space="preserve">
+    <value>Learn more about Solution Design</value>
+  </data>
+</root>

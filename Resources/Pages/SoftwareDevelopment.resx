@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Navigation -->
+  <data name="BackButtonText" xml:space="preserve">
+    <value>← Back</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>E2E Solution Development</value>
+  </data>
+
+  <!-- Web Development -->
+  <data name="WebDev_Title" xml:space="preserve">
+    <value>Web Development</value>
+  </data>
+  <data name="WebDev_Point1" xml:space="preserve">
+    <value>Responsive UI with modern CSS frameworks (Tailwind, Bootstrap)</value>
+  </data>
+  <data name="WebDev_Point2" xml:space="preserve">
+    <value>Single-page apps using Blazor or React for fluid UX</value>
+  </data>
+  <data name="WebDev_Point3" xml:space="preserve">
+    <value>SEO-friendly markup and performance optimization</value>
+  </data>
+  <data name="WebDev_Point4" xml:space="preserve">
+    <value>Headless CMS &amp; e-commerce platform integrations</value>
+  </data>
+
+  <!-- Integration Development -->
+  <data name="Integration_Title" xml:space="preserve">
+    <value>Integration Development</value>
+  </data>
+  <data name="Integration_Point1" xml:space="preserve">
+    <value>Design and consume RESTful &amp; GraphQL APIs</value>
+  </data>
+  <data name="Integration_Point2" xml:space="preserve">
+    <value>Secure OAuth2/JWT authentication flows</value>
+  </data>
+  <data name="Integration_Point3" xml:space="preserve">
+    <value>Middleware connectors for legacy systems</value>
+  </data>
+  <data name="Integration_Point4" xml:space="preserve">
+    <value>Event-driven data pipelines and webhooks</value>
+  </data>
+
+  <!-- AI & Machine Learning -->
+  <data name="AIML_Title" xml:space="preserve">
+    <value>AI &amp; Machine Learning</value>
+  </data>
+  <data name="AIML_Point1" xml:space="preserve">
+    <value>Data cleaning, feature engineering &amp; model training</value>
+  </data>
+  <data name="AIML_Point2" xml:space="preserve">
+    <value>NLP solutions: chatbots &amp; sentiment analysis</value>
+  </data>
+  <data name="AIML_Point3" xml:space="preserve">
+    <value>Computer Vision: image classification &amp; object detection</value>
+  </data>
+  <data name="AIML_Point4" xml:space="preserve">
+    <value>Model deployment (TensorFlow, ONNX) &amp; monitoring</value>
+  </data>
+
+  <!-- Cloud Services -->
+  <data name="Cloud_Title" xml:space="preserve">
+    <value>Cloud Services</value>
+  </data>
+  <data name="Cloud_Point1" xml:space="preserve">
+    <value>Infrastructure as Code (Terraform, ARM templates)</value>
+  </data>
+  <data name="Cloud_Point2" xml:space="preserve">
+    <value>Container orchestration with Docker &amp; Kubernetes</value>
+  </data>
+  <data name="Cloud_Point3" xml:space="preserve">
+    <value>Auto-scaling, high-availability architecture</value>
+  </data>
+  <data name="Cloud_Point4" xml:space="preserve">
+    <value>CI/CD pipelines (GitHub Actions, Azure DevOps)</value>
+  </data>
+
+  <!-- Backend Services -->
+  <data name="Backend_Title" xml:space="preserve">
+    <value>Backend Services</value>
+  </data>
+  <data name="Backend_Point1" xml:space="preserve">
+    <value>Microservices using .NET/C# with DDD patterns</value>
+  </data>
+  <data name="Backend_Point2" xml:space="preserve">
+    <value>Scalable REST &amp; gRPC APIs</value>
+  </data>
+  <data name="Backend_Point3" xml:space="preserve">
+    <value>Relational &amp; NoSQL database design</value>
+  </data>
+  <data name="Backend_Point4" xml:space="preserve">
+    <value>Logging, health checks &amp; observability</value>
+  </data>
+
+  <!-- Mobile Development -->
+  <data name="Mobile_Title" xml:space="preserve">
+    <value>Mobile Development</value>
+  </data>
+  <data name="Mobile_Point1" xml:space="preserve">
+    <value>Cross-platform apps with .NET MAUI or React Native</value>
+  </data>
+  <data name="Mobile_Point2" xml:space="preserve">
+    <value>Native feature integration: GPS, camera, push notifications</value>
+  </data>
+  <data name="Mobile_Point3" xml:space="preserve">
+    <value>Offline data sync and local storage strategies</value>
+  </data>
+  <data name="Mobile_Point4" xml:space="preserve">
+    <value>App Store &amp; Play Store packaging &amp; deployment</value>
+  </data>
+
+  <!-- Desktop App Development -->
+  <data name="Desktop_Title" xml:space="preserve">
+    <value>Desktop App Development</value>
+  </data>
+  <data name="Desktop_Point1" xml:space="preserve">
+    <value>Electron, .NET MAUI, WPF or WinForms solutions</value>
+  </data>
+  <data name="Desktop_Point2" xml:space="preserve">
+    <value>Cross-platform installers and auto-updaters</value>
+  </data>
+  <data name="Desktop_Point3" xml:space="preserve">
+    <value>Modern UI/UX with adaptive layouts</value>
+  </data>
+  <data name="Desktop_Point4" xml:space="preserve">
+    <value>Integration with local hardware &amp; services</value>
+  </data>
+</root>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Navigation -->
+  <data name="BackButtonText" xml:space="preserve">
+    <value>← Back</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Support &amp; Future Plan</value>
+  </data>
+
+  <!-- Step 1 -->
+  <data name="Step1_Title" xml:space="preserve">
+    <value>Continuous support for our applications is available.</value>
+  </data>
+  <data name="Step1_Description" xml:space="preserve">
+    <value>We offer ongoing maintenance, bug fixes, and feature updates to keep your software running smoothly.</value>
+  </data>
+
+  <!-- Step 2 -->
+  <data name="Step2_Title" xml:space="preserve">
+    <value>Choose from 4 different levels of support.</value>
+  </data>
+  <data name="Step2_Description" xml:space="preserve">
+    <value>Select the plan that fits your needs—from basic monitoring to full-time dedicated support.</value>
+  </data>
+
+  <!-- Step 3 -->
+  <data name="Step3_Title" xml:space="preserve">
+    <value>Request a solution review at any time.</value>
+  </data>
+  <data name="Step3_Description" xml:space="preserve">
+    <value>Have us reassess your application against the latest standards and best practices whenever you need.</value>
+  </data>
+
+  <!-- Step 4 -->
+  <data name="Step4_Title" xml:space="preserve">
+    <value>Receive updated designs and roadmaps.</value>
+  </data>
+  <data name="Step4_Description" xml:space="preserve">
+    <value>If changes are needed, we’ll deliver new designs along with a clear implementation plan.</value>
+  </data>
+</root>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- Microsoft ResX Schema -->
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Hero Section -->
+  <data name="HeroTitle" xml:space="preserve">
+    <value>გააცოცხლე&#x0D;&#x0A;შენი ხედვა</value>
+  </data>
+  <data name="HeroSubtitle" xml:space="preserve">
+    <value>ტექნოლოგიური გადაწყვეტილებები&#x0D;&#x0A;ბიზნესის ზრდისთვის</value>
+  </data>
+  <data name="ExploreServicesButton" xml:space="preserve">
+    <value>ჩვენი სერვისები</value>
+  </data>
+
+  <!-- Services Grid -->
+  <data name="OurServicesHeading" xml:space="preserve">
+    <value>ჩვენი სერვისები</value>
+  </data>
+
+  <!-- Service 1 -->
+  <data name="Service1_Title" xml:space="preserve">
+    <value>IT სტრატეგია</value>
+  </data>
+  <data name="Service1_Description" xml:space="preserve">
+    <value>თქვენი ბიზნესის მოთხოვნების ღრმა გააზრება, ბიუჯეტთან შესაბამისობაში</value>
+  </data>
+  <data name="Service1_BackText" xml:space="preserve">
+    <value>ჩვენ შევქმნით და შევადარებთ რამდენიმე პერსონალიზებულ IT სტრატეგიას, რათა აირჩიოთ ყველაზე მომგებიანი.</value>
+  </data>
+  <data name="Service1_Link" xml:space="preserve">
+    <value>/services/it-strategy</value>
+  </data>
+
+  <!-- Service 2 -->
+  <data name="Service2_Title" xml:space="preserve">
+    <value>პროდუქტის დიზაინი</value>
+  </data>
+  <data name="Service2_Description" xml:space="preserve">
+    <value>ვაანალიზებთ მოდულებს, ვწერთ ტექნიკურ სპეციფიკაციებს, ვქმნით მიწოდების არხს, ვაზუსტებთ ყველა ამოცანას და ვადგენთ გეგმებს Jira, Trello ან Azure DevOps-ზე.</value>
+  </data>
+  <data name="Service2_BackText" xml:space="preserve">
+    <value>დაგეგმარება — მიიღეთ სრული, გამჭვირვალე გეგმა განვითარებისთვის.</value>
+  </data>
+  <data name="Service2_Link" xml:space="preserve">
+    <value>/services/solution-design</value>
+  </data>
+
+  <!-- Service 3 -->
+  <data name="Service3_Title" xml:space="preserve">
+    <value>პროგრამული უზრუნველყოფა</value>
+  </data>
+  <data name="Service3_Description" xml:space="preserve">
+    <value>დესკტოპ-აპლიკაციების შექმნა, მასშტაბირებადი backend-სერვისები, თანამედროვე ვებ-მულტიპლატფორმული აპლიკაცია, არსებულ სერვისებთან ინტეგრაცია, CLOUD დანერგვა, AIს დანერგვა.</value>
+  </data>
+  <data name="Service3_BackText" xml:space="preserve">
+    <value>სრული Full-stack, End-to-End განვითარება, მორგებული თქვენს საჭიროებებზე, ინტეგრაციით და მასშტაბირებით.</value>
+  </data>
+  <data name="Service3_Link" xml:space="preserve">
+    <value>/services/e2e-development</value>
+  </data>
+
+  <!-- Service 4 -->
+  <data name="Service4_Title" xml:space="preserve">
+    <value>მხარდაჭერა და დაგეგმარება</value>
+  </data>
+  <data name="Service4_Description" xml:space="preserve">
+    <value>დასაბუთებული მხარდაჭერა ყველა დასრულებულ აპლიკაციებზე, მომსახურების ოთხი დონე, მოთხოვნის გადახედვა და განახლებული დიზაინი იმპლემენტაციის დაგეგმარება.</value>
+  </data>
+  <data name="Service4_BackText" xml:space="preserve">
+    <value>შეინარჩუნეთ სისტემების სტაბილურობა და განვითარდით თავდაჯერებით ჩვენი მოქნილი მხარდაჭერის დონეებით.</value>
+  </data>
+  <data name="Service4_Link" xml:space="preserve">
+    <value>/services/support</value>
+  </data>
+
+  <!-- About Section -->
+  <data name="AboutSection_Title" xml:space="preserve">
+    <value>Logyx.tech შესახებ</value>
+  </data>
+  <data name="AboutParagraph1" xml:space="preserve">
+    <value>Logyx.tech-ში ჩვენ ვქმნით თქვენს ხედვას რეალობად. მრავალწლიანი გამოცდილებით IT სტრატეგიათა, გადაწყვეტილებების დიზაინისა და End-to-End განვითარების სფეროში, ჩვენი გუნდი ქმნის მორგებულ პროგრამულ გადაწყვეტილებებს, რომელიც ადვილად მასშტაბირდება.</value>
+  </data>
+  <data name="AboutParagraph2" xml:space="preserve">
+    <value>პირველი იდეის სრულყოფაში მოყვანიდან გრძელვადიან მხარდაჭერამდე და მომავლის დაგეგმვამდე — ჩვენ აქ ვართ თქვენთან ერთად, მკვეთრი ხედვით სირთულეში და ინოვაციით ყოველი პროექტში.</value>
+  </data>
+  <data name="GetInTouchButton" xml:space="preserve">
+    <value>დაგვიკავშირდით</value>
+  </data>
+
+  <!-- Our Team -->
+  <data name="OurTeamHeading" xml:space="preserve">
+    <value>ჩვენი გუნდი</value>
+  </data>
+  <data name="TeamMember1_Name" xml:space="preserve">
+    <value>ალისი სმითი</value>
+  </data>
+  <data name="TeamMember1_Description" xml:space="preserve">
+    <value>წევნობრივი დეველოპერი 10+ წლიანი გამოცდილებით .NET და Blazor აპლიკაციების მასშტაბირებაში.</value>
+  </data>
+  <data name="TeamMember2_Name" xml:space="preserve">
+    <value>ბობ ჯონსონი</value>
+  </data>
+  <data name="TeamMember2_Description" xml:space="preserve">
+    <value>პროექტის მენეჯერი, რომელიც კოორდინირებას უწევს დაინტერესებულ მხარეებსა და გუნდებს სრულ თანმიმდევრობაში.</value>
+  </data>
+  <data name="TeamMember3_Name" xml:space="preserve">
+    <value>ქეროლ ლი</value>
+  </data>
+  <data name="TeamMember3_Description" xml:space="preserve">
+    <value>UX/UI დიზაინერი, ქმნის ინტუიციურ და ხელმისაწვდომ ინტერფეისებს, რომლებისთვისაც მომხმარებლები იხუტებენ.</value>
+  </data>
+  <data name="TeamMember4_Name" xml:space="preserve">
+    <value>დევიდ კიმ</value>
+  </data>
+  <data name="TeamMember4_Description" xml:space="preserve">
+    <value>ღრუბლოვანი არქიტექტორი და DevOps სპეციალისტი, უზრუნველყოფს თქვენს გადაწყვეტილებებს ძლიერ და წარმოებისთვის მზა გარემოში.</value>
+  </data>
+  <data name="TeamMember5_Name" xml:space="preserve">
+    <value>ევა გარსია</value>
+  </data>
+  <data name="TeamMember5_Description" xml:space="preserve">
+    <value>AI/ML ინჟინერი, ინერგავს ინტელექტუალურ ავტომატიზაციას და მონაცემთა ანალიტიკას ყოველ პროექტში.</value>
+  </data>
+  <data name="TeamMember6_Name" xml:space="preserve">
+    <value>ფრანკ მიულერი</value>
+  </data>
+  <data name="TeamMember6_Description" xml:space="preserve">
+    <value>QA გუნდის ლიდერი, ვნებიანია შეცდომების გარეშე და მაღალი შესრულების პროგრამული უზრუნველყოფის მიწოდებაზე.</value>
+  </data>
+
+  <!-- Contact Section -->
+  <data name="ContactSection_Title" xml:space="preserve">
+    <value>დაგვიკავშირდით</value>
+  </data>
+  <data name="ThankYouMessage" xml:space="preserve">
+    <value>გმადლობთ! ჩვენ მალე დაგიკავშირდებით.</value>
+  </data>
+  <data name="NameLabel" xml:space="preserve">
+    <value>სახელი</value>
+  </data>
+  <data name="EmailLabel" xml:space="preserve">
+    <value>ელ.ფოსტა</value>
+  </data>
+  <data name="SubjectLabel" xml:space="preserve">
+    <value>თემა</value>
+  </data>
+  <data name="MessageLabel" xml:space="preserve">
+    <value>შეტყობინება</value>
+  </data>
+  <data name="SendButton" xml:space="preserve">
+    <value>გაგზავნა</value>
+  </data>
+
+  <!-- Validation Messages -->
+  <data name="Validation_NameRequired" xml:space="preserve">
+    <value>სახელის შეყვანა აუცილებელია.</value>
+  </data>
+  <data name="Validation_EmailRequired" xml:space="preserve">
+    <value>ელ.ფოსტის შეყვანა აუცილებელია.</value>
+  </data>
+  <data name="Validation_EmailInvalid" xml:space="preserve">
+    <value>ელ.ფოსტის მისამართი მცდარია.</value>
+  </data>
+  <data name="Validation_MessageRequired" xml:space="preserve">
+    <value>გთხოვთ, შეიყვანოთ შეტყობინება.</value>
+  </data>
+</root>

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Navigation -->
+  <data name="BackButtonText" xml:space="preserve">
+    <value>← Назад</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>E2E разработка решений</value>
+  </data>
+
+  <!-- Web Development -->
+  <data name="WebDev_Title" xml:space="preserve">
+    <value>Веб-разработка</value>
+  </data>
+  <data name="WebDev_Point1" xml:space="preserve">
+    <value>Адаптивный интерфейс с современными CSS-фреймворками (Tailwind, Bootstrap)</value>
+  </data>
+  <data name="WebDev_Point2" xml:space="preserve">
+    <value>Одностраничные приложения на Blazor или React для плавного UX</value>
+  </data>
+  <data name="WebDev_Point3" xml:space="preserve">
+    <value>SEO-ориентированная разметка и оптимизация производительности</value>
+  </data>
+  <data name="WebDev_Point4" xml:space="preserve">
+    <value>Интеграция с headless CMS и платформами электронной коммерции</value>
+  </data>
+
+  <!-- Integration Development -->
+  <data name="Integration_Title" xml:space="preserve">
+    <value>Разработка интеграций</value>
+  </data>
+  <data name="Integration_Point1" xml:space="preserve">
+    <value>Проектирование и потребление RESTful и GraphQL API</value>
+  </data>
+  <data name="Integration_Point2" xml:space="preserve">
+    <value>Безопасные потоки аутентификации OAuth2/JWT</value>
+  </data>
+  <data name="Integration_Point3" xml:space="preserve">
+    <value>Промежуточные коннекторы для устаревших систем</value>
+  </data>
+  <data name="Integration_Point4" xml:space="preserve">
+    <value>Событийно-ориентированные каналы данных и вебхуки</value>
+  </data>
+
+  <!-- AI & Machine Learning -->
+  <data name="AIML_Title" xml:space="preserve">
+    <value>ИИ и машинное обучение</value>
+  </data>
+  <data name="AIML_Point1" xml:space="preserve">
+    <value>Очистка данных, подготовка признаков и обучение моделей</value>
+  </data>
+  <data name="AIML_Point2" xml:space="preserve">
+    <value>Решения NLP: чат-боты, анализ тональности</value>
+  </data>
+  <data name="AIML_Point3" xml:space="preserve">
+    <value>Компьютерное зрение: классификация изображений и обнаружение объектов</value>
+  </data>
+  <data name="AIML_Point4" xml:space="preserve">
+    <value>Развертывание моделей (TensorFlow, ONNX) и мониторинг</value>
+  </data>
+
+  <!-- Cloud Services -->
+  <data name="Cloud_Title" xml:space="preserve">
+    <value>Облачные сервисы</value>
+  </data>
+  <data name="Cloud_Point1" xml:space="preserve">
+    <value>Инфраструктура как код (Terraform, ARM-шаблоны)</value>
+  </data>
+  <data name="Cloud_Point2" xml:space="preserve">
+    <value>Оркестрация контейнеров с Docker и Kubernetes</value>
+  </data>
+  <data name="Cloud_Point3" xml:space="preserve">
+    <value>Автомасштабирование и отказоустойчивая архитектура</value>
+  </data>
+  <data name="Cloud_Point4" xml:space="preserve">
+    <value>CI/CD-конвейеры (GitHub Actions, Azure DevOps)</value>
+  </data>
+
+  <!-- Backend Services -->
+  <data name="Backend_Title" xml:space="preserve">
+    <value>Бэкенд-сервисы</value>
+  </data>
+  <data name="Backend_Point1" xml:space="preserve">
+    <value>Микросервисы на .NET/C# с паттернами DDD</value>
+  </data>
+  <data name="Backend_Point2" xml:space="preserve">
+    <value>Масштабируемые REST и gRPC API</value>
+  </data>
+  <data name="Backend_Point3" xml:space="preserve">
+    <value>Проектирование реляционных и NoSQL баз данных</value>
+  </data>
+  <data name="Backend_Point4" xml:space="preserve">
+    <value>Логирование, health-checks и наблюдаемость</value>
+  </data>
+
+  <!-- Mobile Development -->
+  <data name="Mobile_Title" xml:space="preserve">
+    <value>Мобильная разработка</value>
+  </data>
+  <data name="Mobile_Point1" xml:space="preserve">
+    <value>Кроссплатформенные приложения на .NET MAUI или React Native</value>
+  </data>
+  <data name="Mobile_Point2" xml:space="preserve">
+    <value>Интеграция нативных функций: GPS, камера, push-уведомления</value>
+  </data>
+  <data name="Mobile_Point3" xml:space="preserve">
+    <value>Синхронизация офлайн-данных и стратегии локального хранения</value>
+  </data>
+  <data name="Mobile_Point4" xml:space="preserve">
+    <value>Публикация в App Store и Play Store</value>
+  </data>
+
+  <!-- Desktop App Development -->
+  <data name="Desktop_Title" xml:space="preserve">
+    <value>Разработка настольных приложений</value>
+  </data>
+  <data name="Desktop_Point1" xml:space="preserve">
+    <value>Решения на Electron, .NET MAUI, WPF или WinForms</value>
+  </data>
+  <data name="Desktop_Point2" xml:space="preserve">
+    <value>Кроссплатформенные установщики и автообновления</value>
+  </data>
+  <data name="Desktop_Point3" xml:space="preserve">
+    <value>Современный UI/UX с адаптивной вёрсткой</value>
+  </data>
+  <data name="Desktop_Point4" xml:space="preserve">
+    <value>Интеграция с локальным оборудованием и сервисами</value>
+  </data>
+</root>

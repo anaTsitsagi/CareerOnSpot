@@ -1,0 +1,81 @@
+﻿@page "/aboutus"
+@using Microsoft.AspNetCore.Components.Routing
+@using AccountingSoftware.Shared
+@inject NavigationManager Nav
+@using System.ComponentModel.DataAnnotations
+@using Microsoft.Extensions.Localization
+@using System.Globalization;
+@inject IStringLocalizer<Index> L
+@inject IJSRuntime JS
+@inject NavigationManager Nav
+
+<main class="py-20 px-4 sm:px-6 bg-background text-text font-sans antialiased">
+    <div class="max-w-7xl mx-auto">
+        <!-- Section title -->
+        <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">Who are we?</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
+            @* -- Member #1 -- *@
+            <div class="relative flex flex-col items-center text-center">
+                <!-- Decorative circle behind -->
+                <div class="absolute -left-16 top-1/2 w-72 h-72 bg-blue-100 rounded-full transform -translate-y-1/2"></div>
+
+                <!-- Portrait -->
+                <img src="/images/joanna.jpg"
+                     alt="Joanna Kaminska"
+                     class="relative z-10 w-64 h-64 rounded-full object-cover shadow-lg" />
+
+                <!-- Name badge -->
+                <div class="relative z-20 mt-4 bg-gradient-to-r from-red-500 to-blue-400 text-white font-semibold px-5 py-2 rounded-2xl">
+                    Joanna Kaminska
+                </div>
+
+                <!-- Bio text -->
+                <div class="relative z-20 mt-6 space-y-3 max-w-md text-left">
+                    <p>8 years of experience in HR/IT recruitment, now PMO/IT PM.</p>
+                    <p>Working experience in Outsourcing and Product Companies in IT area.</p>
+                    <p><strong>Languages:</strong> Polish, English, Spanish</p>
+
+                    <!-- LinkedIn link -->
+                    <a href="https://www.linkedin.com/in/joannakaminska"
+                       target="_blank"
+                       class="inline-flex items-center mt-4 text-blue-600 hover:underline">
+                        <img src="/images/linkedin-icon.svg" alt="LinkedIn" class="w-6 h-6" />
+                        <span class="ml-2">Visit my LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+
+            @* -- Member #2 -- *@
+            <div class="relative flex flex-col items-center text-center">
+                <!-- Decorative circle behind -->
+                <div class="absolute -right-16 top-1/2 w-72 h-72 bg-gray-100 rounded-full transform -translate-y-1/2"></div>
+
+                <!-- Portrait -->
+                <img src="/images/hokuma.jpg"
+                     alt="Hokuma Guluzade"
+                     class="relative z-10 w-64 h-64 rounded-full object-cover shadow-lg" />
+
+                <!-- Name badge -->
+                <div class="relative z-20 mt-4 bg-gradient-to-r from-blue-400 to-red-500 text-white font-semibold px-5 py-2 rounded-2xl">
+                    Hokuma Guluzade
+                </div>
+
+                <!-- Bio text -->
+                <div class="relative z-20 mt-6 space-y-3 max-w-md text-left">
+                    <p>5 years of experience in IT recruitment, now HR PM.</p>
+                    <p>Worked with different product companies in an agency recruiter setup.</p>
+                    <p><strong>Languages:</strong> English, Azerbaijani, Turkish</p>
+
+                    <!-- LinkedIn link -->
+                    <a href="https://www.linkedin.com/in/hokumag/"
+                       target="_blank"
+                       class="inline-flex items-center mt-4 text-blue-600 hover:underline">
+                        <img src="/images/linkedin-icon.svg" alt="LinkedIn" class="w-6 h-6" />
+                        <span class="ml-2">Visit my LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Navigation -->
+  <data name="BackButtonText" xml:space="preserve"><value>← უკან</value></data>
+  <data name="PageTitle"       xml:space="preserve"><value>გადაწყვეტილების დიზაინი</value></data>
+
+  <!-- Step 1 -->
+  <data name="Step1_Title"  xml:space="preserve">
+    <value>თქვენ გვეპყრობით თქვენი ბიზნეს-იდეითა და IT სტრატეგიით.</value>
+  </data>
+  <data name="Step1_Point1" xml:space="preserve">
+    <value>თქვენი მაღალი დონის სტრატეგიის მიმოხილვა, რომ ტექნიკური მოცულობა შეესაბამებოდეს ბიზნეს მიზნებს</value>
+  </data>
+  <data name="Step1_Point2" xml:space="preserve">
+    <value>არსებული დოკუმენტაციის, მომხმარებლის პერсонаების და წარმატების მეტრიკების შეგროვება</value>
+  </data>
+  <data name="Step1_Point3" xml:space="preserve">
+    <value>სტეიკჰოლდერებთან შეხვედრის სანაწყიო სემინარის ორგანიზება ანდასრულებების გასარკვევად</value>
+  </data>
+  <data name="Step1_Point4" xml:space="preserve">
+    <value>პროექტის შეზღუდვების განსაზღვრა: ბიუჯეტი, ვადები, რეგულაციური მოთხოვნები</value>
+  </data>
+
+  <!-- Step 2 -->
+  <data name="Step2_Title"  xml:space="preserve">
+    <value>ჩვენ ვაანალიზებთ თითოეულ მოდულს და ვწერთ ტექნიკურ აღწერას.</value>
+  </data>
+  <data name="Step2_Point1" xml:space="preserve">
+    <value>შესყიდვის ფუნქციური დომენებისა და მიკროსერვისების დაშლა</value>
+  </data>
+  <data name="Step2_Point2" xml:space="preserve">
+    <value>მონაცემთა მოდელების, API კონტრაქტებისა და მომხმარებლის ნაკადების დიაგრამების მომზადება</value>
+  </data>
+  <data name="Step2_Point3" xml:space="preserve">
+    <value>ტექნოლოგიური სტეკის შერჩევა (ფრონტენდი, ბექენდი, მონაცემთა ბაზა, მესიჯინგი)</value>
+  </data>
+  <data name="Step2_Point4" xml:space="preserve">
+    <value>არაინტერკუთხოვნების დოკუმენტაცია: შესრულება, უსაფრთხოება, მასშტაბურობა</value>
+  </data>
+
+  <!-- Step 3 -->
+  <data name="Step3_Title"  xml:space="preserve">
+    <value>ჩვენ ვქმნით მიწოდების არხს.</value>
+  </data>
+  <data name="Step3_Point1" xml:space="preserve">
+    <value>CI/CD სამუშაო პროცესების დიზაინი შენაგებისა, ტესტებისა და განლაგების ეტაპებისთვის</value>
+  </data>
+  <data name="Step3_Point2" xml:space="preserve">
+    <value>სტატიკური კოდის ანალიზის, ერთეულიანი ტესტებისა და უსაფრთხოების სკანირების ინტეგრაცია</value>
+  </data>
+  <data name="Step3_Point3" xml:space="preserve">
+    <value>არტეფაქტების საცავებისა და კონტეინერების რეესტრების კონფიგურაცია</value>
+  </data>
+  <data name="Step3_Point4" xml:space="preserve">
+    <value>ავტომატური როლბექისა და მონიტორინგის ხელსაწყოების დასაყენებლად</value>
+  </data>
+
+  <!-- Step 4 -->
+  <data name="Step4_Title"  xml:space="preserve">
+    <value>ჩვენ ვზომავთ ყველა დავალებას საბოლოო შედეგისთვის.</value>
+  </data>
+  <data name="Step4_Point1" xml:space="preserve">
+    <value>ტექნიკური სპეციფიკაციების გარდაქმნა მომხმარებლის ისტორიებად ან დავალებებად</value>
+  </data>
+  <data name="Step4_Point2" xml:space="preserve">
+    <value>შრომის დროის შეფასება და პრიორიტეტის განსაზღვრა (MoSCoW / story points)</value>
+  </data>
+  <data name="Step4_Point3" xml:space="preserve">
+    <value>დავალებების ორგანიზება სპრინტებად ან ეტაპებად</value>
+  </data>
+  <data name="Step4_Point4" xml:space="preserve">
+    <value>მიამზადეთ მიღების კრიტერიუმები და ტესტის სცენარები თითოეულ დავალებაზე</value>
+  </data>
+
+  <!-- Step 5 -->
+  <data name="Step5_Title"  xml:space="preserve">
+    <value>ჩვენ გადავცემთ ყველა დიზაინს თქვენს არჩეულ ინსტრუმენტში (Jira, Trello, Azure DevOps და ა.შ.).</value>
+  </data>
+  <data name="Step5_Point1" xml:space="preserve">
+    <value>ეპიკების, ისტორიებისა და ქვედავალებების დაფების შევსება</value>
+  </data>
+  <data name="Step5_Point2" xml:space="preserve">
+    <value>Wireframe-ების, სეკვენს დიაგრამებისა და API სპეციფიკაციების დოკუმენტების მიმაგრება</value>
+  </data>
+  <data name="Step5_Point3" xml:space="preserve">
+    <value>სამუშაო პროცესების, ეტიკეტების, swimlane-ებისა და ნებართვების სქემების კონფიგურაცია</value>
+  </data>
+  <data name="Step5_Point4" xml:space="preserve">
+    <value>გადაცემის პროცესში walkthrough-ის და ცოდნის გადაცემის სესიების ჩართვა</value>
+  </data>
+</root>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Navigation -->
+  <data name="BackButtonText" xml:space="preserve">
+    <value>← Назад</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>IT-стратегия</value>
+  </data>
+
+  <!-- Intro -->
+  <data name="Intro_Heading" xml:space="preserve">
+    <value>Когда вам нужна эта услуга?</value>
+  </data>
+  <data name="Intro_Point1" xml:space="preserve">
+    <value>Вы планируете разработку ПО на заказ, но вам нужны точные оценки стоимости перед принятием решения.</value>
+  </data>
+  <data name="Intro_Point2" xml:space="preserve">
+    <value>У вас есть бизнес-идея, и нужно перевести её в точные технические требования.</value>
+  </data>
+  <data name="Intro_Point3" xml:space="preserve">
+    <value>Вам нужна экспертная помощь в выборе оптимального технологического стека и инструментов.</value>
+  </data>
+
+  <!-- Step 1 -->
+  <data name="Step1_Title" xml:space="preserve">
+    <value>Детальное изучение ваших бизнес-потребностей</value>
+  </data>
+  <data name="Step1_Point1" xml:space="preserve">
+    <value>Проведение интервью с участниками для выявления ключевых проблем и целей</value>
+  </data>
+  <data name="Step1_Point2" xml:space="preserve">
+    <value>Картирование существующих процессов и потоков данных для выявления пробелов</value>
+  </data>
+  <data name="Step1_Point3" xml:space="preserve">
+    <value>Уточнение метрик успеха и технических ограничений заранее</value>
+  </data>
+  <data name="Step1_Point4" xml:space="preserve">
+    <value>Согласование масштабов проекта, сроков и регуляторных требований</value>
+  </data>
+
+  <!-- Step 2 -->
+  <data name="Step2_Title" xml:space="preserve">
+    <value>Определение бюджетных вариантов</value>
+  </data>
+  <data name="Step2_Point1" xml:space="preserve">
+    <value>Разбивка затрат по этапам разработки, лицензированию и обслуживанию</value>
+  </data>
+  <data name="Step2_Point2" xml:space="preserve">
+    <value>Изучение моделей оплаты: фиксированная цена, по трудозатратам, гибридные</value>
+  </data>
+  <data name="Step2_Point3" xml:space="preserve">
+    <value>Сравнение затрат на локальный и облачный хостинг</value>
+  </data>
+  <data name="Step2_Point4" xml:space="preserve">
+    <value>Анализ ROI и оценка общей стоимости владения (TCO)</value>
+  </data>
+
+  <!-- Step 3 -->
+  <data name="Step3_Title" xml:space="preserve">
+    <value>Создание нескольких IT-стратегических решений</value>
+  </data>
+  <data name="Step3_Point1" xml:space="preserve">
+    <value>Разработка альтернативных архитектур: микросервисы vs монолит, SaaS vs собственное решение</value>
+  </data>
+  <data name="Step3_Point2" xml:space="preserve">
+    <value>Рекомендации по технологическим стекам (frontend, backend, хранение данных)</value>
+  </data>
+  <data name="Step3_Point3" xml:space="preserve">
+    <value>Оценка масштабируемости, безопасности и соответствия требованиям для каждого варианта</value>
+  </data>
+  <data name="Step3_Point4" xml:space="preserve">
+    <value>Предоставление высокоуровневых сроков и планов ресурсов для каждого сценария</value>
+  </data>
+
+  <!-- Step 4 -->
+  <data name="Step4_Title" xml:space="preserve">
+    <value>Обсуждение вариантов и выбор наилучшего решения</value>
+  </data>
+  <data name="Step4_Point1" xml:space="preserve">
+    <value>Разбор плюсов, минусов и рисков каждой стратегии</value>
+  </data>
+  <data name="Step4_Point2" xml:space="preserve">
+    <value>Ответы на вопросы и уточнение предположений в режиме реального времени</value>
+  </data>
+  <data name="Step4_Point3" xml:space="preserve">
+    <value>Приоритизация функций с учётом бюджета и сроков</value>
+  </data>
+  <data name="Step4_Point4" xml:space="preserve">
+    <value>Формирование чёткого плана с определёнными этапами</value>
+  </data>
+</root>

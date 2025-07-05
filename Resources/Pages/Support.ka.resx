@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Navigation -->
+  <data name="BackButtonText" xml:space="preserve">
+    <value>← უკან</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>მხარდაჭერა და სამომავლო გეგმა</value>
+  </data>
+
+  <!-- Step 1 -->
+  <data name="Step1_Title" xml:space="preserve">
+    <value>ხელმისაწვდომია ჩვენი აპლიკაციების უწყვეტი მხარდაჭერა.</value>
+  </data>
+  <data name="Step1_Description" xml:space="preserve">
+    <value>ჩვენ გთავაზობთ მუდმივ ტექნიკურ მომსახურებას, ბაგების გამოსწორებას და ფუნქციების განახლებას, რათა თქვენი პროგრამა შეუფერხებლად იმუშაოს.</value>
+  </data>
+
+  <!-- Step 2 -->
+  <data name="Step2_Title" xml:space="preserve">
+    <value>არჩევა 4 სხვადასხვა მხარდაჭერის დონეს შორის.</value>
+  </data>
+  <data name="Step2_Description" xml:space="preserve">
+    <value>აირჩიეთ გეგმა — ძირითადი მონიტორინგიდან სრული დროის გამოყოფილი მხარდაჭერამდე.</value>
+  </data>
+
+  <!-- Step 3 -->
+  <data name="Step3_Title" xml:space="preserve">
+    <value>მოთხოვეთ გადაწყვეტილების გადახედვა ნებისმიერ დროს.</value>
+  </data>
+  <data name="Step3_Description" xml:space="preserve">
+    <value>ჩვენ შევაფასებთ თქვენს აპლიკაციას უახლესი სტანდარტებისა და საუკეთესო პრაქტიკის შესაბამისად.</value>
+  </data>
+
+  <!-- Step 4 -->
+  <data name="Step4_Title" xml:space="preserve">
+    <value>მიიღეთ განახლებული დიზაინები და გზამკვლევები.</value>
+  </data>
+  <data name="Step4_Description" xml:space="preserve">
+    <value>თუ საჭირო იქნება ცვლილებები, მოგაწვდით ახალ დიზაინებს და განხორციელების მკაფიო გეგმას.</value>
+  </data>
+</root>

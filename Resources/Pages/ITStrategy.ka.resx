@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Navigation -->
+  <data name="BackButtonText" xml:space="preserve">
+    <value>← უკან</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>IT სტრატეგია</value>
+  </data>
+
+  <!-- Intro -->
+  <data name="Intro_Heading" xml:space="preserve">
+    <value>როდის საჭიროა ეს სერვისი?</value>
+  </data>
+  <data name="Intro_Point1" xml:space="preserve">
+    <value>გეგმავთ მორგებული პროგრამის შექმნას, მაგრამ გჭირდებათ ზუსტი შეფასებები გადაწყვეტილების მიღებამდე.</value>
+  </data>
+  <data name="Intro_Point2" xml:space="preserve">
+    <value>აქვთ ბიზნეს-იდეა და გჭირდებათ მისი გადაყვანა ზუსტი ტექნიკური მოთხოვნებისთვის.</value>
+  </data>
+  <data name="Intro_Point3" xml:space="preserve">
+    <value>გჭირდებათ ექსპერტული რჩევა საუკეთესო ტექნოლოგიური სტეკისა და ინსტრუმენტების არჩევაში.</value>
+  </data>
+
+  <!-- Step 1 -->
+  <data name="Step1_Title" xml:space="preserve">
+    <value>დეტალურად მოსმენა თქვენი ბიზნესსაჭიროებების გასაგებად</value>
+  </data>
+  <data name="Step1_Point1" xml:space="preserve">
+    <value>მონაწილე მხარეებთან ინტერვიუების ჩატარება ძირითადი პრობლემებისა და მიზნების დასაგებად</value>
+  </data>
+  <data name="Step1_Point2" xml:space="preserve">
+    <value>არსებული სამუშაო პროცესებისა და მონაცემთა ნაკადების რუკირება ხარვეზების გამოსავლენად</value>
+  </data>
+  <data name="Step1_Point3" xml:space="preserve">
+    <value>წარმატების მეტრიკებისა და ტექნიკური შეზღუდვების წინასწარ განსაზღვრა</value>
+  </data>
+  <data name="Step1_Point4" xml:space="preserve">
+    <value>პროექტის მასშტაბის, ვადებისა და რეგულაციური მოთხოვნების შეთანხმება</value>
+  </data>
+
+  <!-- Step 2 -->
+  <data name="Step2_Title" xml:space="preserve">
+    <value>ბიუჯეტირების ვარიანტების განსაზღვრა</value>
+  </data>
+  <data name="Step2_Point1" xml:space="preserve">
+    <value>განვითარების ეტაპებად, ლიცენზირებისა და მომსახურების ხარჯების გაყოფა</value>
+  </data>
+  <data name="Step2_Point2" xml:space="preserve">
+    <value>მიწოდების სხვადასხვა მოდელების: ფიქსირებული ღირებულება, დროისა და რესურსების მოდელის შესწავლა</value>
+  </data>
+  <data name="Step2_Point3" xml:space="preserve">
+    <value>ლოკალური vs ღრუბლოვანი ჰოსტინგის ხარჯების შედარება</value>
+  </data>
+  <data name="Step2_Point4" xml:space="preserve">
+    <value>ROI ანალიზის ჩატარება და საერთო საკუთრების ღირებულების (TCO) შეფასება</value>
+  </data>
+
+  <!-- Step 3 -->
+  <data name="Step3_Title" xml:space="preserve">
+    <value>რამდენიმე IT სტრატეგიული გადაწყვეტის შექმნა თქვენი საჭიროებებისთვის</value>
+  </data>
+  <data name="Step3_Point1" xml:space="preserve">
+    <value>ალტერნატიული არქიტექტურების განხილვა: მიკროსერვისები vs მონოლითი, SaaS vs მორგებული</value>
+  </data>
+  <data name="Step3_Point2" xml:space="preserve">
+    <value>რეკომენდებული ტექნოლოგიური სტეკების (frontend, backend, მონაცემთა შენახვა) განსაზღვრ��</value>
+  </data>
+  <data name="Step3_Point3" xml:space="preserve">
+    <value>თითოეული ვარიანტის მასშტაბურობის, უსაფრთხოების და შესაბამისობის შეფასება</value>
+  </data>
+  <data name="Step3_Point4" xml:space="preserve">
+    <value>თითოეული სცენარისთვის მაღალი დონის ვადებისა და რესურსების გეგმის მიწოდება</value>
+  </data>
+
+  <!-- Step 4 -->
+  <data name="Step4_Title" xml:space="preserve">
+    <value>ვარიანტების განხილვა და საუკეთესო გადაწყვეტილების არჩევა</value>
+  </data>
+  <data name="Step4_Point1" xml:space="preserve">
+    <value>ყოველი სტრატეგიის დადებითი, უარყოფითი მხარეებისა და რისკების განხილვა</value>
+  </data>
+  <data name="Step4_Point2" xml:space="preserve">
+    <value>პასუხები კითხვებზე და ვარაუდების დახვეწა რეალურ დროში</value>
+  </data>
+  <data name="Step4_Point3" xml:space="preserve">
+    <value>ფუნქციების პრიორიტეტიზაცია ბიუჯეტის და ვადების გათვალისწინებით</value>
+  </data>
+  <data name="Step4_Point4" xml:space="preserve">
+    <value>კონკრეტული სამოქმედო გეგმის დადგენა განსაზღვრული საფეხურებით</value>
+  </data>
+</root>

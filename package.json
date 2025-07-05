@@ -1,0 +1,28 @@
+{
+  "name": "AccountingSoftware",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./wwwroot/css/tailwind.css -o ./wwwroot/css/site.css --minify",
+    "watch:css": "npx tailwindcss -i ./wwwroot/css/tailwind.css -o ./wwwroot/css/site.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaTsitsagi/AccountingSoftware.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anaTsitsagi/AccountingSoftware/issues"
+  },
+  "homepage": "https://github.com/anaTsitsagi/AccountingSoftware#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4"
+  },
+  "dependencies": {},
+  "description": "",
+  "engines": { "node": ">=18.0.0" }
+}

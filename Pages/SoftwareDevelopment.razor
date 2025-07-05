@@ -1,0 +1,129 @@
+﻿@page "/services/e2e-development"
+@using System.Globalization
+@using Microsoft.Extensions.Localization
+@inherits LayoutComponentBase
+
+@inject NavigationManager Nav
+@inject IStringLocalizer<SoftwareDevelopment> L
+
+<div class="max-w-6xl mx-auto mb-16 px-2 sm:px-6 pt-12">
+    <!-- Back button -->
+    <button class="text-accent1 mb-6 block px-4 py-2 rounded border border-accent1
+                   hover:bg-accent1 hover:text-white transition"
+            @onclick="GoBack">
+        @L["BackButtonText"]
+    </button>
+    <!-- Page title -->
+    <h1 class="text-3xl font-bold mb-8">@L["PageTitle"]</h1>
+
+    <!-- Cards grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        @foreach (var item in Items)
+        {
+            <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col items-start">
+                <div class="text-accent1 mb-4 text-4xl self-center">
+                    <i class="bi @item.Icon"></i>
+                </div>
+
+                <h3 class="text-xl font-semibold mb-2">@item.Title</h3>
+
+                <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+                    @foreach (var point in item.Points)
+                    {
+                        <li>@point</li>
+                    }
+                </ul>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    void GoBack() => Nav.NavigateTo("/services");
+
+    class ServiceItem
+    {
+        public string Icon { get; set; }
+        public string Title { get; set; }
+        public List<string> Points { get; set; }
+    }
+
+    List<ServiceItem> Items;
+
+    protected override void OnInitialized()
+    {
+        Items = new()
+        {
+            new ServiceItem {
+                Icon   = "bi-globe",
+                Title  = L["WebDev_Title"],
+                Points = new() {
+                    L["WebDev_Point1"],
+                    L["WebDev_Point2"],
+                    L["WebDev_Point3"],
+                    L["WebDev_Point4"]
+                }
+            },
+            new ServiceItem {
+                Icon   = "bi-plug",
+                Title  = L["Integration_Title"],
+                Points = new() {
+                    L["Integration_Point1"],
+                    L["Integration_Point2"],
+                    L["Integration_Point3"],
+                    L["Integration_Point4"]
+                }
+            },
+            new ServiceItem {
+                Icon   = "bi-robot",
+                Title  = L["AIML_Title"],
+                Points = new() {
+                    L["AIML_Point1"],
+                    L["AIML_Point2"],
+                    L["AIML_Point3"],
+                    L["AIML_Point4"]
+                }
+            },
+            new ServiceItem {
+                Icon   = "bi-cloud",
+                Title  = L["Cloud_Title"],
+                Points = new() {
+                    L["Cloud_Point1"],
+                    L["Cloud_Point2"],
+                    L["Cloud_Point3"],
+                    L["Cloud_Point4"]
+                }
+            },
+            new ServiceItem {
+                Icon   = "bi-server",
+                Title  = L["Backend_Title"],
+                Points = new() {
+                    L["Backend_Point1"],
+                    L["Backend_Point2"],
+                    L["Backend_Point3"],
+                    L["Backend_Point4"]
+                }
+            },
+            new ServiceItem {
+                Icon   = "bi-phone",
+                Title  = L["Mobile_Title"],
+                Points = new() {
+                    L["Mobile_Point1"],
+                    L["Mobile_Point2"],
+                    L["Mobile_Point3"],
+                    L["Mobile_Point4"]
+                }
+            },
+            new ServiceItem {
+                Icon   = "bi-laptop",
+                Title  = L["Desktop_Title"],
+                Points = new() {
+                    L["Desktop_Point1"],
+                    L["Desktop_Point2"],
+                    L["Desktop_Point3"],
+                    L["Desktop_Point4"]
+                }
+            }
+        };
+    }
+}

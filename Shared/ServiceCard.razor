@@ -1,0 +1,61 @@
+﻿@using Microsoft.Extensions.Localization
+@inherits LayoutComponentBase
+@inject NavigationManager NavManager
+@inject IStringLocalizer<ServiceCard> L
+
+<style>
+    /* Base card styles */
+    .service-card {
+        background-color: white;
+        border-radius: 1rem;
+        padding: 1.5rem;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.1s, box-shadow 0.1s;
+    }
+
+        /* Hover state */
+        .service-card:hover {
+            background-color: #f3f4f6; /* Tailwind’s gray-100 */
+            /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+        }
+</style>
+
+<div class="service-card w-full min-h-[28rem] h-auto flex flex-col gap-y-4">
+    <!-- Icon -->
+    <div class="flex justify-center mb-3">
+        <i class="bi @Icon text-accent1 text-3xl"></i>
+    </div>
+
+    <!-- Title & Description -->
+    <h3 class="text-xl font-semibold mb-2 text-center">@Title</h3>
+    <p class="text-sm text-gray-700 whitespace-pre-line break-words leading-snug flex-1">
+        @Description
+    </p>
+
+    <!-- Tags (optional) -->
+    @if (Tags?.Any() == true)
+    {
+        <div class="mt-4 flex flex-wrap gap-1 justify-end">
+            @foreach (var tag in Tags)
+            {
+                <span class="bg-white text-accent1 border border-accent1 text-xs font-medium px-2 py-1 rounded-full">
+                    @tag
+                </span>
+            }
+        </div>
+    }
+
+    <!-- Go to details button -->
+    <button class="mt-auto bg-accent1 text-white text-sm font-medium py-2 px-4 rounded-full hover:bg-accent2 transition"
+            @onclick="() => NavManager.NavigateTo(Link)">
+        @L["GoToDetailsButton"]
+    </button>
+</div>
+
+@code {
+    [Parameter] public string Icon { get; set; }
+    [Parameter] public string Title { get; set; }
+    [Parameter] public string Description { get; set; }
+    [Parameter] public string Link { get; set; }
+    [Parameter] public IEnumerable<string> Tags { get; set; } = Enumerable.Empty<string>();
+}

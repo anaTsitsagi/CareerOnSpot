@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 442.33 240.51">
+  <!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 152)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-family: FuturaLTPaneuropean-Bold, 'Futura LT Paneuropean';
+        font-size: 76.12px;
+        font-weight: 700;
+      }
+
+      .st1 {
+        fill: #283c94;
+      }
+
+      .st2 {
+        fill: #00a5b7;
+      }
+
+      .st3 {
+        fill: #be1e67;
+      }
+
+      .st4 {
+        fill: #fff;
+      }
+
+      .st5 {
+        font-family: FuturaLTPaneuropean-Light, 'Futura LT Paneuropean';
+        font-size: 25.37px;
+        font-weight: 300;
+      }
+
+      .st6 {
+        fill: #fbad27;
+      }
+
+      .st7 {
+        fill: #ee2130;
+      }
+    </style>
+  </defs>
+  <text class="st4" transform="translate(172.17 124.43) scale(.97 1)"><tspan class="st0"><tspan x="0" y="0">Logyx</tspan></tspan><tspan class="st5"><tspan x="0" y="50.75">Technology for Business</tspan></tspan></text>
+  <g>
+    <path class="st4" d="M84.16,66.1h62.21c1.1,0,2,.89,2,2v60.35c0,1.1-.89,2-2,2h-10c-1.1,0-2-.89-2-1.99l-.05-47.78c0-1.11-.9-2-2.01-1.99l-48.15.24c-1.11,0-2.01-.89-2.01-2v-8.82c0-1.1.89-2,2-2Z"/>
+    <path class="st4" d="M95.49,181.19h-62.37c-1.06,0-1.92-.86-1.92-1.92v-60.5c0-1.06.86-1.92,1.92-1.92h10.15c1.06,0,1.92.86,1.92,1.92l.05,47.94c0,1.06.87,1.92,1.93,1.92l48.3-.24c1.06,0,1.93.86,1.93,1.92v8.97c0,1.06-.86,1.92-1.92,1.92Z"/>
+    <rect class="st7" x="31.21" y="66.1" width="13.62" height="13.62" rx="1" ry="1"/>
+    <rect class="st6" x="134.75" y="169.14" width="13.62" height="13.62" rx="1" ry="1"/>
+    <rect class="st3" x="48.22" y="82.18" width="22.86" height="22.86" rx="1" ry="1"/>
+    <rect class="st2" x="108.99" y="142.95" width="22.86" height="22.86" rx="1" ry="1"/>
+    <rect class="st1" x="73.52" y="107.58" width="32.42" height="32.42" rx="1" ry="1"/>
+  </g>
+</svg>

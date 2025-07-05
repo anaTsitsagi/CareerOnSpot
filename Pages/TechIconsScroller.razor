@@ -1,0 +1,38 @@
+﻿@using Microsoft.AspNetCore.Components
+@inherits LayoutComponentBase
+
+<style>
+    /* marquee animation: move left by 50% of content width */
+    @@keyframes marquee {
+      0%   { transform: translateX(0%); }
+      100% { transform: translateX(-50%); }
+    }
+    /* apply the animation; pause on hover */
+    .animate-marquee {
+      animation: marquee 30s linear infinite;
+    }
+    .animate-marquee:hover {
+      animation-play-state: paused;
+    }
+</style>
+
+<div class="overflow-hidden">
+    <div class="flex animate-marquee items-center space-x-8">
+        @* render icons twice for seamless loop *@
+        @foreach (var src in IconUrls.Concat(IconUrls))
+        {
+            <img src="@src"
+                 alt="Tech logo"
+                 class="h-12 w-auto inline-block"
+                 loading="lazy" />
+        }
+    </div>
+</div>
+
+@code {
+    /// <summary>
+    /// List of URLs (PNG/SVG/etc) for each technology icon.
+    /// </summary>
+    [Parameter]
+    public IEnumerable<string> IconUrls { get; set; } = Array.Empty<string>();
+}

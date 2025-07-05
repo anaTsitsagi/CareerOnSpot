@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Navigation -->
+  <data name="BackButtonText" xml:space="preserve"><value>← Back</value></data>
+  <data name="PageTitle"       xml:space="preserve"><value>Solution Design</value></data>
+
+  <!-- Step 1 -->
+  <data name="Step1_Title"  xml:space="preserve">
+    <value>You come to us with your business idea and IT-strategy insights.</value>
+  </data>
+  <data name="Step1_Point1" xml:space="preserve">
+    <value>Review your high-level strategy to align technical scope with business goals</value>
+  </data>
+  <data name="Step1_Point2" xml:space="preserve">
+    <value>Gather existing documentation, user personas, and success metrics</value>
+  </data>
+  <data name="Step1_Point3" xml:space="preserve">
+    <value>Host a kickoff workshop with stakeholders to clarify assumptions</value>
+  </data>
+  <data name="Step1_Point4" xml:space="preserve">
+    <value>Define project constraints: budget, timeline, compliance requirements</value>
+  </data>
+
+  <!-- Step 2 -->
+  <data name="Step2_Title"  xml:space="preserve">
+    <value>We analyze every module and write a technical description.</value>
+  </data>
+  <data name="Step2_Point1" xml:space="preserve">
+    <value>Break down the solution into functional domains and microservices</value>
+  </data>
+  <data name="Step2_Point2" xml:space="preserve">
+    <value>Draft data models, API contracts, and user-flow diagrams</value>
+  </data>
+  <data name="Step2_Point3" xml:space="preserve">
+    <value>Specify tech stack choices (frontend, backend, database, messaging)</value>
+  </data>
+  <data name="Step2_Point4" xml:space="preserve">
+    <value>Document non-functional requirements: performance, security, scalability</value>
+  </data>
+
+  <!-- Step 3 -->
+  <data name="Step3_Title"  xml:space="preserve">
+    <value>We create a delivery pipeline.</value>
+  </data>
+  <data name="Step3_Point1" xml:space="preserve">
+    <value>Design CI/CD workflows for build, test, and deployment stages</value>
+  </data>
+  <data name="Step3_Point2" xml:space="preserve">
+    <value>Integrate static code analysis, unit testing, and security scans</value>
+  </data>
+  <data name="Step3_Point3" xml:space="preserve">
+    <value>Configure artifact repositories and container registries</value>
+  </data>
+  <data name="Step3_Point4" xml:space="preserve">
+    <value>Set up automated rollback and monitoring hooks</value>
+  </data>
+
+  <!-- Step 4 -->
+  <data name="Step4_Title"  xml:space="preserve">
+    <value>We define every single task needed for the final result.</value>
+  </data>
+  <data name="Step4_Point1" xml:space="preserve">
+    <value>Translate technical specs into actionable user stories or tasks</value>
+  </data>
+  <data name="Step4_Point2" xml:space="preserve">
+    <value>Estimate effort and assign priority (MoSCoW / story points)</value>
+  </data>
+  <data name="Step4_Point3" xml:space="preserve">
+    <value>Organize tasks into sprints or milestones</value>
+  </data>
+  <data name="Step4_Point4" xml:space="preserve">
+    <value>Prepare acceptance criteria and test scenarios for each item</value>
+  </data>
+
+  <!-- Step 5 -->
+  <data name="Step5_Title"  xml:space="preserve">
+    <value>We hand off all designs in your tool of choice (Jira, Trello, Azure DevOps, etc.).</value>
+  </data>
+  <data name="Step5_Point1" xml:space="preserve">
+    <value>Populate boards with epics, stories, and sub-tasks</value>
+  </data>
+  <data name="Step5_Point2" xml:space="preserve">
+    <value>Attach wireframes, sequence diagrams, and API spec docs</value>
+  </data>
+  <data name="Step5_Point3" xml:space="preserve">
+    <value>Configure workflows, labels, swimlanes, and permission schemes</value>
+  </data>
+  <data name="Step5_Point4" xml:space="preserve">
+    <value>Ensure handoff includes a walkthrough and knowledge-transfer session</value>
+  </data>
+</root>

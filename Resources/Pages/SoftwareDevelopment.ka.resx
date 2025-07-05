@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Navigation -->
+  <data name="BackButtonText" xml:space="preserve">
+    <value>← უკან</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>E2E გადაწყვეტების განვითარება</value>
+  </data>
+
+  <!-- Web Development -->
+  <data name="WebDev_Title" xml:space="preserve">
+    <value>ვებ განვითარება</value>
+  </data>
+  <data name="WebDev_Point1" xml:space="preserve">
+    <value>რეაგირებადი UI თანამედროვე CSS ჩარჩოებით (Tailwind, Bootstrap)</value>
+  </data>
+  <data name="WebDev_Point2" xml:space="preserve">
+    <value>ერთგვერდიანი აპები Blazor ან React-ით გლუვი UX-ისთვის</value>
+  </data>
+  <data name="WebDev_Point3" xml:space="preserve">
+    <value>SEO-ისთვის ოპტიმიზირებული მარკაპი და შესრულების გამოკურება</value>
+  </data>
+  <data name="WebDev_Point4" xml:space="preserve">
+    <value>Headless CMS და ელექტრონული კომერციის პლატფორმების ინტეგრაცია</value>
+  </data>
+
+  <!-- Integration Development -->
+  <data name="Integration_Title" xml:space="preserve">
+    <value>ინტეგრაციის განვითარება</value>
+  </data>
+  <data name="Integration_Point1" xml:space="preserve">
+    <value>RESTful და GraphQL API-ების დიზაინი და გამოყენება</value>
+  </data>
+  <data name="Integration_Point2" xml:space="preserve">
+    <value>უსაფრთხო OAuth2/JWT ავთენტიფიკაციის ნაკადები</value>
+  </data>
+  <data name="Integration_Point3" xml:space="preserve">
+    <value>Legacy სისტემებისთვის განკუთვნილი შუამავლური კონექტორები</value>
+  </data>
+  <data name="Integration_Point4" xml:space="preserve">
+    <value>მოვლენაზე ორიენტირებული მონაცემთა ნაკადები და ვებქუქები</value>
+  </data>
+
+  <!-- AI & Machine Learning -->
+  <data name="AIML_Title" xml:space="preserve">
+    <value>ხელოვნური ინტელექტი და მანქანური სწავლება</value>
+  </data>
+  <data name="AIML_Point1" xml:space="preserve">
+    <value>მონაცემების გასუფთავება, თვისებების ინჟინერია და მოდელების გაწვევა</value>
+  </data>
+  <data name="AIML_Point2" xml:space="preserve">
+    <value>NLP გადაწყვეტები: ჩატ-ბოტები და ტონს ანალიზი</value>
+  </data>
+  <data name="AIML_Point3" xml:space="preserve">
+    <value>კომპიუტერული ხედვა: გამოსახულების კლასიფიკაცია და ობიექტების გამოვლენა</value>
+  </data>
+  <data name="AIML_Point4" xml:space="preserve">
+    <value>მოდელების განთავსება (TensorFlow, ONNX) და მონიტორინგი</value>
+  </data>
+
+  <!-- Cloud Services -->
+  <data name="Cloud_Title" xml:space="preserve">
+    <value>ღრუბლოვანი სერვისები</value>
+  </data>
+  <data name="Cloud_Point1" xml:space="preserve">
+    <value>ინფრასტრუქტურა როგორც კოდი (Terraform, ARM შაბლონები)</value>
+  </data>
+  <data name="Cloud_Point2" xml:space="preserve">
+    <value>Docker და Kubernetes-ით კონტეინერების ორკესტრაცია</value>
+  </data>
+  <data name="Cloud_Point3" xml:space="preserve">
+    <value>ავტომასშტაბირება და მაღალი ხელმისაწვდომობის არქიტექტურა</value>
+  </data>
+  <data name="Cloud_Point4" xml:space="preserve">
+    <value>CI/CD გზავნილები (GitHub Actions, Azure DevOps)</value>
+  </data>
+
+  <!-- Backend Services -->
+  <data name="Backend_Title" xml:space="preserve">
+    <value>ბექენდ სერვისები</value>
+  </data>
+  <data name="Backend_Point1" xml:space="preserve">
+    <value>მიკროსერვისები .NET/C#-ში DDD პატერნებით</value>
+  </data>
+  <data name="Backend_Point2" xml:space="preserve">
+    <value>მომატებული REST და gRPC API-ები</value>
+  </data>
+  <data name="Backend_Point3" xml:space="preserve">
+    <value>რელაციური და NoSQL მონაცემთა ბაზების დიზაინი</value>
+  </data>
+  <data name="Backend_Point4" xml:space="preserve">
+    <value>ლოგინგი, კონტროლი და მონიტორინგი</value>
+  </data>
+
+  <!-- Mobile Development -->
+  <data name="Mobile_Title" xml:space="preserve">
+    <value>მობილური განვითარება</value>
+  </data>
+  <data name="Mobile_Point1" xml:space="preserve">
+    <value>Cross-platform აპები .NET MAUI-თ ან React Native-თ</value>
+  </data>
+  <data name="Mobile_Point2" xml:space="preserve">
+    <value>ნატიური ფუნქციების ინტეგრაცია: GPS, კამერა, push შეტყობინებები</value>
+  </data>
+  <data name="Mobile_Point3" xml:space="preserve">
+    <value>ოფლაინ მონაცემთა სინქრონიზაცია და ადგილობრივი შენახვის სტრატეგიები</value>
+  </data>
+  <data name="Mobile_Point4" xml:space="preserve">
+    <value>App Store და Play Store-ში გამოქვეყნების პროცესი</value>
+  </data>
+
+  <!-- Desktop App Development -->
+  <data name="Desktop_Title" xml:space="preserve">
+    <value>დესკტოპ აპლიკაციების განვითარება</value>
+  </data>
+  <data name="Desktop_Point1" xml:space="preserve">
+    <value>Electron, .NET MAUI, WPF ან WinForms გადაწყვეტილებები</value>
+  </data>
+  <data name="Desktop_Point2" xml:space="preserve">
+    <value>Cross-platform დამონტაჟებლები და ავტო განახლება</value>
+  </data>
+  <data name="Desktop_Point3" xml:space="preserve">
+    <value>თანმიმდევრული UI/UX ადაპტიური განლაგებით</value>
+  </data>
+  <data name="Desktop_Point4" xml:space="preserve">
+    <value>სამუშაო აპარატურასა და სერვისებთან ინტეგრაცია</value>
+  </data>
+</root>

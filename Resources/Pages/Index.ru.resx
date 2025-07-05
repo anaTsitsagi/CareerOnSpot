@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- Microsoft ResX Schema -->
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Hero Section -->
+  <data name="HeroTitle" xml:space="preserve">
+    <value>Раскрывая&#x0D;&#x0A;Ваше видение</value>
+  </data>
+  <data name="HeroSubtitle" xml:space="preserve">
+    <value>Технологичные решения&#x0D;&#x0A;для масштабирования вашего бизнеса</value>
+  </data>
+  <data name="ExploreServicesButton" xml:space="preserve">
+    <value>наши услуги</value>
+  </data>
+
+  <!-- Services Grid -->
+  <data name="OurServicesHeading" xml:space="preserve">
+    <value>Наши услуги</value>
+  </data>
+
+  <!-- Service 1 -->
+  <data name="Service1_Title" xml:space="preserve">
+    <value>ИТ-стратегия</value>
+  </data>
+  <data name="Service1_Description" xml:space="preserve">
+    <value>Глубокое понимание потребностей вашего бизнеса с учётом бюджета</value>
+  </data>
+  <data name="Service1_BackText" xml:space="preserve">
+    <value>Мы определим и сравним несколько индивидуальных ИТ-стратегий, чтобы вы могли выбрать оптимальную.</value>
+  </data>
+  <data name="Service1_Link" xml:space="preserve">
+    <value>/services/it-strategy</value>
+  </data>
+
+  <!-- Service 2 -->
+  <data name="Service2_Title" xml:space="preserve">
+    <value>Проектирование решений</value>
+  </data>
+  <data name="Service2_Description" xml:space="preserve">
+    <value>мы анализируем модули, пишем технические спецификации, строим конвейер поставки, определяем все задачи и делимся планами через Jira, Trello или Azure DevOps.</value>
+  </data>
+  <data name="Service2_BackText" xml:space="preserve">
+    <value>От модулей до этапов — получите полный, прозрачный план, готовый к разработке.</value>
+  </data>
+  <data name="Service2_Link" xml:space="preserve">
+    <value>/services/solution-design</value>
+  </data>
+
+  <!-- Service 3 -->
+  <data name="Service3_Title" xml:space="preserve">
+    <value>Разработка ПО</value>
+  </data>
+  <data name="Service3_Description" xml:space="preserve">
+    <value>Создание настольных приложений, масштабируемых backend-сервисов,мобильных приложений, интеграция существующего, внедрение облачных сервисов.</value>
+  </data>
+  <data name="Service3_BackText" xml:space="preserve">
+    <value>Полнофункциональная разработка, адаптированная под ваши нужды, с бесшовной интеграцией и масштабированием.</value>
+  </data>
+  <data name="Service3_Link" xml:space="preserve">
+    <value>/services/e2e-development</value>
+  </data>
+
+  <!-- Service 4 -->
+  <data name="Service4_Title" xml:space="preserve">
+    <value>Поддержка и планы на будущее</value>
+  </data>
+  <data name="Service4_Description" xml:space="preserve">
+    <value>Непрерывная поддержка всех приложений, четыре уровня обслуживания, обзоры решений по запросу и обновлённые дизайны с дорожными картами внедрения.</value>
+  </data>
+  <data name="Service4_BackText" xml:space="preserve">
+    <value>Обеспечьте бесперебойную работу систем и развитие с уверенностью, используя наши гибкие уровни поддержки.</value>
+  </data>
+  <data name="Service4_Link" xml:space="preserve">
+    <value>/services/support</value>
+  </data>
+
+  <!-- About Section -->
+  <data name="AboutSection_Title" xml:space="preserve">
+    <value>О Logyx.tech</value>
+  </data>
+  <data name="AboutParagraph1" xml:space="preserve">
+    <value>В Logyx.tech мы увлечены превращением ваших идей в реальность. Благодаря многолетнему опыту в ИТ-стратегии, проектировании решений и полном цикле разработки, наша команда создаёт индивидуальные решения, которые легко масштабируются.</value>
+  </data>
+  <data name="AboutParagraph2" xml:space="preserve">
+    <value>От первоначального мозгового штурма до долгосрочной поддержки и планирования будущего — мы с вами на каждом этапе, привнося ясность в сложность и инновации в каждый проект.</value>
+  </data>
+  <data name="GetInTouchButton" xml:space="preserve">
+    <value>Связаться с нами</value>
+  </data>
+
+  <!-- Our Team -->
+  <data name="OurTeamHeading" xml:space="preserve">
+    <value>Наша команда</value>
+  </data>
+  <data name="TeamMember1_Name" xml:space="preserve">
+    <value>Элис Смит</value>
+  </data>
+  <data name="TeamMember1_Description" xml:space="preserve">
+    <value>Ведущий разработчик с более чем 10-летним опытом создания масштабируемых приложений на .NET и Blazor.</value>
+  </data>
+  <data name="TeamMember2_Name" xml:space="preserve">
+    <value>Боб Джонсон</value>
+  </data>
+  <data name="TeamMember2_Description" xml:space="preserve">
+    <value>Менеджер проектов, который держит всё под контролем, координируя работу заинтересованных сторон и команд разработчиков.</value>
+  </data>
+  <data name="TeamMember3_Name" xml:space="preserve">
+    <value>Кэрол Ли</value>
+  </data>
+  <data name="TeamMember3_Description" xml:space="preserve">
+    <value>UX/UI-дизайнер, создающий интуитивные и доступные интерфейсы, которые радуют пользователей.</value>
+  </data>
+  <data name="TeamMember4_Name" xml:space="preserve">
+    <value>Дэвид Ким</value>
+  </data>
+  <data name="TeamMember4_Description" xml:space="preserve">
+    <value>Облачный архитектор и DevOps-специалист, обеспечивающий надёжность и готовность ваших решений к продакшену.</value>
+  </data>
+  <data name="TeamMember5_Name" xml:space="preserve">
+    <value>Ева Гарсия</value>
+  </data>
+  <data name="TeamMember5_Description" xml:space="preserve">
+    <value>Инженер AI/ML, внедряющий интеллектуальную автоматизацию и аналитику данных в каждый проект.</value>
+  </data>
+  <data name="TeamMember6_Name" xml:space="preserve">
+    <value>Фрэнк Мюллер</value>
+  </data>
+  <data name="TeamMember6_Description" xml:space="preserve">
+    <value>Руководитель QA, стремящийся к поставке безошибочного и высокопроизводительного ПО.</value>
+  </data>
+
+  <!-- Contact Section -->
+  <data name="ContactSection_Title" xml:space="preserve">
+    <value>Свяжитесь с нами</value>
+  </data>
+  <data name="ThankYouMessage" xml:space="preserve">
+    <value>Спасибо за ваше сообщение! Мы скоро свяжемся с вами.</value>
+  </data>
+  <data name="NameLabel" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="EmailLabel" xml:space="preserve">
+    <value>Электронная почта</value>
+  </data>
+  <data name="SubjectLabel" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="MessageLabel" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="SendButton" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+
+  <!-- Validation Messages -->
+  <data name="Validation_NameRequired" xml:space="preserve">
+    <value>Имя обязательно.</value>
+  </data>
+  <data name="Validation_EmailRequired" xml:space="preserve">
+    <value>Электронная почта обязательна.</value>
+  </data>
+  <data name="Validation_EmailInvalid" xml:space="preserve">
+    <value>Неверный адрес электронной почты.</value>
+  </data>
+  <data name="Validation_MessageRequired" xml:space="preserve">
+    <value>Пожалуйста, введите сообщение.</value>
+  </data>
+</root>

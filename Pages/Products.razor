@@ -1,0 +1,68 @@
+﻿@page "/products"
+@using System.Globalization
+@using Microsoft.Extensions.Localization
+@inherits LayoutComponentBase
+@inject NavigationManager Nav
+@inject IStringLocalizer<Products> L
+
+<div class="max-w-6xl mx-auto mb-16 px-2 sm:px-6 pt-12">
+        <!-- Back button -->
+    <button class="text-accent1 mb-6 block px-4 py-2 rounded border border-accent1
+                   hover:bg-accent1 hover:text-white transition"
+            @onclick="GoBack">
+        @L["BackButtonText"]
+    </button>
+
+    <!-- Page title -->
+    <h1 class="text-3xl font-bold mb-8">@L["PageTitle"]</h1>
+
+    <!-- Cards grid with alternating background colors -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+        @for (int i = 0; i < Steps.Count; i++)
+        {
+            var step = Steps[i];
+            var bg = BgClasses[i % BgClasses.Length];
+            <div class="@($"{bg} rounded-2xl shadow-sm hover:shadow-lg transition p-6")">
+                <h3 class="text-xl font-semibold mb-2">@step.Title</h3>
+                <p class="text-gray-700">@step.Description</p>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    void GoBack() => Nav.NavigateTo("/services");
+
+    string[] BgClasses = new[] { "bg-white", "bg-gray-50", "bg-gray-100", "bg-gray-200" };
+
+    class Step
+    {
+        public string Title { get; set; }
+        public string Description { get; set; }
+    }
+
+    List<Step> Steps;
+
+    protected override void OnInitialized()
+    {
+        Steps = new List<Step>
+    {
+      new Step {
+        Title       = L["Step1_Title"],
+        Description = L["Step1_Description"]
+      },
+      new Step {
+        Title       = L["Step2_Title"],
+        Description = L["Step2_Description"]
+      },
+      new Step {
+        Title       = L["Step3_Title"],
+        Description = L["Step3_Description"]
+      },
+      new Step {
+        Title       = L["Step4_Title"],
+        Description = L["Step4_Description"]
+      }
+    };
+    }
+}
